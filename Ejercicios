@@ -1,0 +1,8 @@
+	Exercise 1– Run and Modify a Basic Example
+
+Goal: Understand the structure of a Geant4 application.
+ 
+• Start with /examples/basic/B1.
+• Change the detector material from water to PMMA and aluminum. 
+• Compile, run, and visualize geometry. 
+Deliverable: Screenshots of geometry for different materials.
