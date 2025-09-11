@@ -1,0 +1,35 @@
+/control/verbose 0
+/tracking/verbose 0
+/event/verbose 0
+/gps/verbose 2
+/run/initialize
+
+#/process/activate StepLimiter
+#/stepLimiter/StepMax 0.1 mm
+
+/gps/particle e-
+/gps/ene/type Gauss
+/gps/ene/mono 1 MeV
+/gps/ene/sigma 0.05 MeV
+
+/gps/pos/type Beam
+/gps/pos/shape Circle
+/gps/pos/centre 0.0 0.0 -10.0 cm
+/gps/pos/sigma_x 1mm
+/gps/pos/sigma_y 1mm
+
+/gps/direction 0 0 1
+
+/score/create/boxMesh boxMesh_1
+/score/mesh/translate/xyz 0 0 -49.5 mm
+/score/mesh/boxSize 50 50 1 mm  # half dim
+/score/mesh/nBin 101 101 1
+/score/quantity/doseDeposit dDep
+/score/close
+/score/list
+
+#
+/run/printProgress 100
+/run/beamOn 10000
+
+/score/dumpQuantityToFile boxMesh_1 dDep dDep.txt
