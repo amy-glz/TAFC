@@ -57,7 +57,7 @@ RM = /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/B2
+CMAKE_SOURCE_DIR = /lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Ejercicio2
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build
@@ -117,43 +117,161 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named B2
+# Target rules for targets named Ejercicio2
 
 # Build rule for target.
-B2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 B2
-.PHONY : B2
+Ejercicio2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Ejercicio2
+.PHONY : Ejercicio2
 
 # fast build rule for target.
-B2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/B2.dir/build.make CMakeFiles/B2.dir/build
-.PHONY : B2/fast
+Ejercicio2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ejercicio2.dir/build.make CMakeFiles/Ejercicio2.dir/build
+.PHONY : Ejercicio2/fast
 
-#=============================================================================
-# Target rules for targets named exampleB2a
+Ej2.o: Ej2.cc.o
+.PHONY : Ej2.o
 
-# Build rule for target.
-exampleB2a: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exampleB2a
-.PHONY : exampleB2a
+# target to build an object file
+Ej2.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ejercicio2.dir/build.make CMakeFiles/Ejercicio2.dir/Ej2.cc.o
+.PHONY : Ej2.cc.o
 
-# fast build rule for target.
-exampleB2a/fast:
-	$(MAKE) $(MAKESILENT) -f B2a/CMakeFiles/exampleB2a.dir/build.make B2a/CMakeFiles/exampleB2a.dir/build
-.PHONY : exampleB2a/fast
+Ej2.i: Ej2.cc.i
+.PHONY : Ej2.i
 
-#=============================================================================
-# Target rules for targets named exampleB2b
+# target to preprocess a source file
+Ej2.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ejercicio2.dir/build.make CMakeFiles/Ejercicio2.dir/Ej2.cc.i
+.PHONY : Ej2.cc.i
 
-# Build rule for target.
-exampleB2b: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exampleB2b
-.PHONY : exampleB2b
+Ej2.s: Ej2.cc.s
+.PHONY : Ej2.s
 
-# fast build rule for target.
-exampleB2b/fast:
-	$(MAKE) $(MAKESILENT) -f B2b/CMakeFiles/exampleB2b.dir/build.make B2b/CMakeFiles/exampleB2b.dir/build
-.PHONY : exampleB2b/fast
+# target to generate assembly for a file
+Ej2.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ejercicio2.dir/build.make CMakeFiles/Ejercicio2.dir/Ej2.cc.s
+.PHONY : Ej2.cc.s
+
+src/ActionInitialization.o: src/ActionInitialization.cc.o
+.PHONY : src/ActionInitialization.o
+
+# target to build an object file
+src/ActionInitialization.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ejercicio2.dir/build.make CMakeFiles/Ejercicio2.dir/src/ActionInitialization.cc.o
+.PHONY : src/ActionInitialization.cc.o
+
+src/ActionInitialization.i: src/ActionInitialization.cc.i
+.PHONY : src/ActionInitialization.i
+
+# target to preprocess a source file
+src/ActionInitialization.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ejercicio2.dir/build.make CMakeFiles/Ejercicio2.dir/src/ActionInitialization.cc.i
+.PHONY : src/ActionInitialization.cc.i
+
+src/ActionInitialization.s: src/ActionInitialization.cc.s
+.PHONY : src/ActionInitialization.s
+
+# target to generate assembly for a file
+src/ActionInitialization.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ejercicio2.dir/build.make CMakeFiles/Ejercicio2.dir/src/ActionInitialization.cc.s
+.PHONY : src/ActionInitialization.cc.s
+
+src/DetectorConstruction.o: src/DetectorConstruction.cc.o
+.PHONY : src/DetectorConstruction.o
+
+# target to build an object file
+src/DetectorConstruction.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ejercicio2.dir/build.make CMakeFiles/Ejercicio2.dir/src/DetectorConstruction.cc.o
+.PHONY : src/DetectorConstruction.cc.o
+
+src/DetectorConstruction.i: src/DetectorConstruction.cc.i
+.PHONY : src/DetectorConstruction.i
+
+# target to preprocess a source file
+src/DetectorConstruction.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ejercicio2.dir/build.make CMakeFiles/Ejercicio2.dir/src/DetectorConstruction.cc.i
+.PHONY : src/DetectorConstruction.cc.i
+
+src/DetectorConstruction.s: src/DetectorConstruction.cc.s
+.PHONY : src/DetectorConstruction.s
+
+# target to generate assembly for a file
+src/DetectorConstruction.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ejercicio2.dir/build.make CMakeFiles/Ejercicio2.dir/src/DetectorConstruction.cc.s
+.PHONY : src/DetectorConstruction.cc.s
+
+src/PhysicsList.o: src/PhysicsList.cc.o
+.PHONY : src/PhysicsList.o
+
+# target to build an object file
+src/PhysicsList.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ejercicio2.dir/build.make CMakeFiles/Ejercicio2.dir/src/PhysicsList.cc.o
+.PHONY : src/PhysicsList.cc.o
+
+src/PhysicsList.i: src/PhysicsList.cc.i
+.PHONY : src/PhysicsList.i
+
+# target to preprocess a source file
+src/PhysicsList.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ejercicio2.dir/build.make CMakeFiles/Ejercicio2.dir/src/PhysicsList.cc.i
+.PHONY : src/PhysicsList.cc.i
+
+src/PhysicsList.s: src/PhysicsList.cc.s
+.PHONY : src/PhysicsList.s
+
+# target to generate assembly for a file
+src/PhysicsList.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ejercicio2.dir/build.make CMakeFiles/Ejercicio2.dir/src/PhysicsList.cc.s
+.PHONY : src/PhysicsList.cc.s
+
+src/PrimaryGeneratorAction.o: src/PrimaryGeneratorAction.cc.o
+.PHONY : src/PrimaryGeneratorAction.o
+
+# target to build an object file
+src/PrimaryGeneratorAction.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ejercicio2.dir/build.make CMakeFiles/Ejercicio2.dir/src/PrimaryGeneratorAction.cc.o
+.PHONY : src/PrimaryGeneratorAction.cc.o
+
+src/PrimaryGeneratorAction.i: src/PrimaryGeneratorAction.cc.i
+.PHONY : src/PrimaryGeneratorAction.i
+
+# target to preprocess a source file
+src/PrimaryGeneratorAction.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ejercicio2.dir/build.make CMakeFiles/Ejercicio2.dir/src/PrimaryGeneratorAction.cc.i
+.PHONY : src/PrimaryGeneratorAction.cc.i
+
+src/PrimaryGeneratorAction.s: src/PrimaryGeneratorAction.cc.s
+.PHONY : src/PrimaryGeneratorAction.s
+
+# target to generate assembly for a file
+src/PrimaryGeneratorAction.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ejercicio2.dir/build.make CMakeFiles/Ejercicio2.dir/src/PrimaryGeneratorAction.cc.s
+.PHONY : src/PrimaryGeneratorAction.cc.s
+
+src/SteppingAction.o: src/SteppingAction.cc.o
+.PHONY : src/SteppingAction.o
+
+# target to build an object file
+src/SteppingAction.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ejercicio2.dir/build.make CMakeFiles/Ejercicio2.dir/src/SteppingAction.cc.o
+.PHONY : src/SteppingAction.cc.o
+
+src/SteppingAction.i: src/SteppingAction.cc.i
+.PHONY : src/SteppingAction.i
+
+# target to preprocess a source file
+src/SteppingAction.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ejercicio2.dir/build.make CMakeFiles/Ejercicio2.dir/src/SteppingAction.cc.i
+.PHONY : src/SteppingAction.cc.i
+
+src/SteppingAction.s: src/SteppingAction.cc.s
+.PHONY : src/SteppingAction.s
+
+# target to generate assembly for a file
+src/SteppingAction.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ejercicio2.dir/build.make CMakeFiles/Ejercicio2.dir/src/SteppingAction.cc.s
+.PHONY : src/SteppingAction.cc.s
 
 # Help Target
 help:
@@ -163,9 +281,25 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... B2"
-	@echo "... exampleB2a"
-	@echo "... exampleB2b"
+	@echo "... Ejercicio2"
+	@echo "... Ej2.o"
+	@echo "... Ej2.i"
+	@echo "... Ej2.s"
+	@echo "... src/ActionInitialization.o"
+	@echo "... src/ActionInitialization.i"
+	@echo "... src/ActionInitialization.s"
+	@echo "... src/DetectorConstruction.o"
+	@echo "... src/DetectorConstruction.i"
+	@echo "... src/DetectorConstruction.s"
+	@echo "... src/PhysicsList.o"
+	@echo "... src/PhysicsList.i"
+	@echo "... src/PhysicsList.s"
+	@echo "... src/PrimaryGeneratorAction.o"
+	@echo "... src/PrimaryGeneratorAction.i"
+	@echo "... src/PrimaryGeneratorAction.s"
+	@echo "... src/SteppingAction.o"
+	@echo "... src/SteppingAction.i"
+	@echo "... src/SteppingAction.s"
 .PHONY : help
 
 

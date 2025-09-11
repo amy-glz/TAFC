@@ -1,4 +1,4 @@
-# Install script for directory: /lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/B2
+# Install script for directory: /lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Ejercicio2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,16 +40,6 @@ endif()
 # Set path to fallback-tool for dependency-resolution.
 if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/binutils-2.43.1-xnihz7pfq4oidn3hgnhbbxzdfjmxpmhy/bin/objdump")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/B2a/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/B2b/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT

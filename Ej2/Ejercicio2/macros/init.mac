@@ -1,0 +1,48 @@
+/control/verbose 2
+/run/initialize
+
+/process/activate StepLimiter
+/stepLimiter/StepMax 0.1 mm
+
+
+# Open a viewer
+/vis/open
+
+# Draw geometry:
+/vis/drawVolume
+
+
+# Specify style (surface or wireframe):
+#/vis/viewer/set/style wireframe
+
+# Draw coordinate axes:
+/vis/scene/add/axes 0 0 0 1 m
+#
+# Draw smooth trajectories at end of event, showing trajectory points
+# as markers 2 pixels wide:
+/vis/scene/add/trajectories smooth
+/vis/modeling/trajectories/create/drawByCharge
+/vis/modeling/trajectories/drawByCharge-0/default/setDrawStepPts true
+/vis/modeling/trajectories/drawByCharge-0/default/setStepPtsSize 2
+
+/vis/scene/add/hits
+/vis/scene/add/trajectories
+/vis/scene/endOfEventAction accumulate
+/vis/viewer/set/autoRefresh true
+
+
+
+/score/create/boxMesh boxMesh_1
+/score/mesh/translate/xyz 0 0 -49.5 mm
+/score/mesh/boxSize 50 50 1 mm  # half dim
+/score/mesh/nBin 101 101 1
+/score/quantity/doseDeposit dDep
+/score/close
+/score/list
+
+#
+/run/printProgress 10
+/run/beamOn 50
+
+#/score/drawProjection boxMesh_1 dDep
+/score/dumpQuantityToFile boxMesh_1 dDep dDep.txt

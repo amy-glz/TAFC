@@ -5,7 +5,7 @@ events:
     kind: "message-v1"
     backtrace:
       - "/shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     message: |
       The system is: Linux - 5.14.0-427.13.1.el9_4.x86_64 - x86_64
   -
@@ -14,7 +14,7 @@ events:
       - "/shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "/shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
       Compiler: /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/bin/gcc 
@@ -36,7 +36,7 @@ events:
       - "/shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "/shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
       Compiler: /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/bin/g++ 
@@ -57,25 +57,26 @@ events:
     backtrace:
       - "/shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
       - "/shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-rGxmwh"
-      binary: "/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-rGxmwh"
+      source: "/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-dPsOwS"
+      binary: "/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-dPsOwS"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-rGxmwh'
+        Change Dir: '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-dPsOwS'
         
-        Run Build Command(s): /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/bin/cmake -E env VERBOSE=1 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.5.0/gmake-4.4.1-55iqpat6q65m6okgepy7xhmo2p2yxsat/bin/gmake -f Makefile cmTC_cc532/fast
-        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.5.0/gmake-4.4.1-55iqpat6q65m6okgepy7xhmo2p2yxsat/bin/gmake  -f CMakeFiles/cmTC_cc532.dir/build.make CMakeFiles/cmTC_cc532.dir/build
-        gmake[1]: Entering directory '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-rGxmwh'
-        Building C object CMakeFiles/cmTC_cc532.dir/CMakeCCompilerABI.c.o
-        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/bin/gcc   -v -o CMakeFiles/cmTC_cc532.dir/CMakeCCompilerABI.c.o -c /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/share/cmake-3.31/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/bin/cmake -E env VERBOSE=1 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.5.0/gmake-4.4.1-55iqpat6q65m6okgepy7xhmo2p2yxsat/bin/gmake -f Makefile cmTC_f0468/fast
+        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.5.0/gmake-4.4.1-55iqpat6q65m6okgepy7xhmo2p2yxsat/bin/gmake  -f CMakeFiles/cmTC_f0468.dir/build.make CMakeFiles/cmTC_f0468.dir/build
+        gmake[1]: Entering directory '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-dPsOwS'
+        Building C object CMakeFiles/cmTC_f0468.dir/CMakeCCompilerABI.c.o
+        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/bin/gcc   -v -o CMakeFiles/cmTC_f0468.dir/CMakeCCompilerABI.c.o -c /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/share/cmake-3.31/Modules/CMakeCCompilerABI.c
         Reading specs from /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/specs
         COLLECT_GCC=/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/bin/gcc
         Target: x86_64-pc-linux-gnu
@@ -83,8 +84,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 14.2.0 (Spack GCC) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cc532.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cc532.dir/'
-         /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/cc1 -quiet -v /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/share/cmake-3.31/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_cc532.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccSImRCv.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f0468.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f0468.dir/'
+         /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/cc1 -quiet -v /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/share/cmake-3.31/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_f0468.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccPR7KAJ.s
         GNU C17 (Spack GCC) version 14.2.0 (x86_64-pc-linux-gnu)
         	compiled by GNU C version 14.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version none
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -98,14 +99,14 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: acb4a37c17c48bb2646daa5a6fb1def8
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cc532.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cc532.dir/'
-         as -v --64 -o CMakeFiles/cmTC_cc532.dir/CMakeCCompilerABI.c.o /tmp/ccSImRCv.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f0468.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f0468.dir/'
+         as -v --64 -o CMakeFiles/cmTC_f0468.dir/CMakeCCompilerABI.c.o /tmp/ccPR7KAJ.s
         GNU assembler version 2.35.2 (x86_64-redhat-linux) using BFD version version 2.35.2-43.el9
         COMPILER_PATH=/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/:/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/:/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/:/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/:/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/:/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cc532.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cc532.dir/CMakeCCompilerABI.c.'
-        Linking C executable cmTC_cc532
-        /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc532.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f0468.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f0468.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_f0468
+        /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0468.dir/link.txt --verbose=1
         Reading specs from /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/specs
         COLLECT_GCC=/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/bin/gcc
         COLLECT_LTO_WRAPPER=/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/lto-wrapper
@@ -116,14 +117,14 @@ events:
         gcc version 14.2.0 (Spack GCC) 
         COMPILER_PATH=/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/:/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/:/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/:/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/:/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/:/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_cc532' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_cc532.'
-         /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/collect2 -plugin /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/liblto_plugin.so -plugin-opt=/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccoUyQmP.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_cc532 /lib/../lib64/crt1.o /lib/../lib64/crti.o /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/crtbegin.o -L/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0 -L/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../.. -rpath /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib64 -v CMakeFiles/cmTC_cc532.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/crtend.o /lib/../lib64/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f0468' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_f0468.'
+         /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/collect2 -plugin /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/liblto_plugin.so -plugin-opt=/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccY3AwwX.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_f0468 /lib/../lib64/crt1.o /lib/../lib64/crti.o /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/crtbegin.o -L/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0 -L/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../.. -rpath /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib64 -v CMakeFiles/cmTC_f0468.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/crtend.o /lib/../lib64/crtn.o
         collect2 version 14.2.0
-        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/binutils-2.43.1-xnihz7pfq4oidn3hgnhbbxzdfjmxpmhy/bin/ld -plugin /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/liblto_plugin.so -plugin-opt=/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccoUyQmP.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_cc532 /lib/../lib64/crt1.o /lib/../lib64/crti.o /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/crtbegin.o -L/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0 -L/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../.. -rpath /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib64 -v CMakeFiles/cmTC_cc532.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/crtend.o /lib/../lib64/crtn.o
+        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/binutils-2.43.1-xnihz7pfq4oidn3hgnhbbxzdfjmxpmhy/bin/ld -plugin /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/liblto_plugin.so -plugin-opt=/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccY3AwwX.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_f0468 /lib/../lib64/crt1.o /lib/../lib64/crti.o /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/crtbegin.o -L/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0 -L/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../.. -rpath /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib64 -v CMakeFiles/cmTC_f0468.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/crtend.o /lib/../lib64/crtn.o
         GNU ld (GNU Binutils) 2.43.1
-        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_cc532' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_cc532.'
-        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/bin/gcc  -v -Wl,-v -rdynamic CMakeFiles/cmTC_cc532.dir/CMakeCCompilerABI.c.o -o cmTC_cc532
-        gmake[1]: Leaving directory '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-rGxmwh'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f0468' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_f0468.'
+        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/bin/gcc  -v -Wl,-v CMakeFiles/cmTC_f0468.dir/CMakeCCompilerABI.c.o -o cmTC_f0468
+        gmake[1]: Leaving directory '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-dPsOwS'
         
       exitCode: 0
   -
@@ -131,7 +132,7 @@ events:
     backtrace:
       - "/shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
       - "/shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Parsed C implicit include dir info: rv=done
         found start of include info
@@ -155,18 +156,18 @@ events:
     backtrace:
       - "/shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
       - "/shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-rGxmwh']
+        ignore line: [Change Dir: '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-dPsOwS']
         ignore line: []
-        ignore line: [Run Build Command(s): /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/bin/cmake -E env VERBOSE=1 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.5.0/gmake-4.4.1-55iqpat6q65m6okgepy7xhmo2p2yxsat/bin/gmake -f Makefile cmTC_cc532/fast]
-        ignore line: [/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.5.0/gmake-4.4.1-55iqpat6q65m6okgepy7xhmo2p2yxsat/bin/gmake  -f CMakeFiles/cmTC_cc532.dir/build.make CMakeFiles/cmTC_cc532.dir/build]
-        ignore line: [gmake[1]: Entering directory '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-rGxmwh']
-        ignore line: [Building C object CMakeFiles/cmTC_cc532.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/bin/gcc   -v -o CMakeFiles/cmTC_cc532.dir/CMakeCCompilerABI.c.o -c /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/share/cmake-3.31/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/bin/cmake -E env VERBOSE=1 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.5.0/gmake-4.4.1-55iqpat6q65m6okgepy7xhmo2p2yxsat/bin/gmake -f Makefile cmTC_f0468/fast]
+        ignore line: [/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.5.0/gmake-4.4.1-55iqpat6q65m6okgepy7xhmo2p2yxsat/bin/gmake  -f CMakeFiles/cmTC_f0468.dir/build.make CMakeFiles/cmTC_f0468.dir/build]
+        ignore line: [gmake[1]: Entering directory '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-dPsOwS']
+        ignore line: [Building C object CMakeFiles/cmTC_f0468.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/bin/gcc   -v -o CMakeFiles/cmTC_f0468.dir/CMakeCCompilerABI.c.o -c /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/share/cmake-3.31/Modules/CMakeCCompilerABI.c]
         ignore line: [Reading specs from /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/specs]
         ignore line: [COLLECT_GCC=/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/bin/gcc]
         ignore line: [Target: x86_64-pc-linux-gnu]
@@ -174,8 +175,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 14.2.0 (Spack GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cc532.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cc532.dir/']
-        ignore line: [ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/cc1 -quiet -v /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/share/cmake-3.31/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_cc532.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccSImRCv.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f0468.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f0468.dir/']
+        ignore line: [ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/cc1 -quiet -v /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/share/cmake-3.31/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_f0468.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccPR7KAJ.s]
         ignore line: [GNU C17 (Spack GCC) version 14.2.0 (x86_64-pc-linux-gnu)]
         ignore line: [	compiled by GNU C version 14.2.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version none]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -189,14 +190,14 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: acb4a37c17c48bb2646daa5a6fb1def8]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cc532.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cc532.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_cc532.dir/CMakeCCompilerABI.c.o /tmp/ccSImRCv.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f0468.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f0468.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_f0468.dir/CMakeCCompilerABI.c.o /tmp/ccPR7KAJ.s]
         ignore line: [GNU assembler version 2.35.2 (x86_64-redhat-linux) using BFD version version 2.35.2-43.el9]
         ignore line: [COMPILER_PATH=/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/:/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/:/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/:/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/:/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/:/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cc532.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cc532.dir/CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_cc532]
-        ignore line: [/shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc532.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f0468.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f0468.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_f0468]
+        ignore line: [/shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0468.dir/link.txt --verbose=1]
         ignore line: [Reading specs from /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/specs]
         ignore line: [COLLECT_GCC=/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/bin/gcc]
         ignore line: [COLLECT_LTO_WRAPPER=/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/lto-wrapper]
@@ -207,13 +208,13 @@ events:
         ignore line: [gcc version 14.2.0 (Spack GCC) ]
         ignore line: [COMPILER_PATH=/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/:/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/:/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/:/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/:/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/:/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_cc532' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_cc532.']
-        link line: [ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/collect2 -plugin /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/liblto_plugin.so -plugin-opt=/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccoUyQmP.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_cc532 /lib/../lib64/crt1.o /lib/../lib64/crti.o /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/crtbegin.o -L/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0 -L/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../.. -rpath /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib64 -v CMakeFiles/cmTC_cc532.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/crtend.o /lib/../lib64/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f0468' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_f0468.']
+        link line: [ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/collect2 -plugin /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/liblto_plugin.so -plugin-opt=/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccY3AwwX.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_f0468 /lib/../lib64/crt1.o /lib/../lib64/crti.o /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/crtbegin.o -L/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0 -L/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../.. -rpath /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib64 -v CMakeFiles/cmTC_f0468.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/crtend.o /lib/../lib64/crtn.o]
           arg [/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccoUyQmP.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccY3AwwX.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -222,11 +223,10 @@ events:
           arg [--eh-frame-hdr] ==> ignore
           arg [-m] ==> ignore
           arg [elf_x86_64] ==> ignore
-          arg [-export-dynamic] ==> ignore
           arg [-dynamic-linker] ==> ignore
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_cc532] ==> ignore
+          arg [cmTC_f0468] ==> ignore
           arg [/lib/../lib64/crt1.o] ==> obj [/lib/../lib64/crt1.o]
           arg [/lib/../lib64/crti.o] ==> obj [/lib/../lib64/crti.o]
           arg [/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/crtbegin.o] ==> obj [/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/crtbegin.o]
@@ -238,7 +238,7 @@ events:
           arg [-rpath] ==> ignore
           arg [/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib64] ==> ignore
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_cc532.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_f0468.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [--push-state] ==> ignore
           arg [--as-needed] ==> ignore
@@ -253,7 +253,7 @@ events:
           arg [/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/crtend.o] ==> obj [/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/crtend.o]
           arg [/lib/../lib64/crtn.o] ==> obj [/lib/../lib64/crtn.o]
         ignore line: [collect2 version 14.2.0]
-        ignore line: [/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/binutils-2.43.1-xnihz7pfq4oidn3hgnhbbxzdfjmxpmhy/bin/ld -plugin /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/liblto_plugin.so -plugin-opt=/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccoUyQmP.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_cc532 /lib/../lib64/crt1.o /lib/../lib64/crti.o /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/crtbegin.o -L/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0 -L/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../.. -rpath /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib64 -v CMakeFiles/cmTC_cc532.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/crtend.o /lib/../lib64/crtn.o]
+        ignore line: [/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/binutils-2.43.1-xnihz7pfq4oidn3hgnhbbxzdfjmxpmhy/bin/ld -plugin /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/liblto_plugin.so -plugin-opt=/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccY3AwwX.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_f0468 /lib/../lib64/crt1.o /lib/../lib64/crti.o /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/crtbegin.o -L/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0 -L/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../.. -rpath /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib64 -v CMakeFiles/cmTC_f0468.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/crtend.o /lib/../lib64/crtn.o]
         linker tool for 'C': /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/binutils-2.43.1-xnihz7pfq4oidn3hgnhbbxzdfjmxpmhy/bin/ld
         collapse obj [/lib/../lib64/crt1.o] ==> [/lib64/crt1.o]
         collapse obj [/lib/../lib64/crti.o] ==> [/lib64/crti.o]
@@ -275,7 +275,7 @@ events:
       - "/shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
       - "/shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
       - "/shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Running the C compiler's linker: "/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/binutils-2.43.1-xnihz7pfq4oidn3hgnhbbxzdfjmxpmhy/bin/ld" "-v"
       GNU ld (GNU Binutils) 2.43.1
@@ -284,26 +284,27 @@ events:
     backtrace:
       - "/shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
       - "/shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-ZEmK9b"
-      binary: "/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-ZEmK9b"
+      source: "/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-qAoaaF"
+      binary: "/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-qAoaaF"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-ZEmK9b'
+        Change Dir: '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-qAoaaF'
         
-        Run Build Command(s): /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/bin/cmake -E env VERBOSE=1 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.5.0/gmake-4.4.1-55iqpat6q65m6okgepy7xhmo2p2yxsat/bin/gmake -f Makefile cmTC_c3e28/fast
-        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.5.0/gmake-4.4.1-55iqpat6q65m6okgepy7xhmo2p2yxsat/bin/gmake  -f CMakeFiles/cmTC_c3e28.dir/build.make CMakeFiles/cmTC_c3e28.dir/build
-        gmake[1]: Entering directory '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-ZEmK9b'
-        Building CXX object CMakeFiles/cmTC_c3e28.dir/CMakeCXXCompilerABI.cpp.o
-        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/bin/g++   -v -o CMakeFiles/cmTC_c3e28.dir/CMakeCXXCompilerABI.cpp.o -c /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/bin/cmake -E env VERBOSE=1 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.5.0/gmake-4.4.1-55iqpat6q65m6okgepy7xhmo2p2yxsat/bin/gmake -f Makefile cmTC_30a26/fast
+        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.5.0/gmake-4.4.1-55iqpat6q65m6okgepy7xhmo2p2yxsat/bin/gmake  -f CMakeFiles/cmTC_30a26.dir/build.make CMakeFiles/cmTC_30a26.dir/build
+        gmake[1]: Entering directory '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-qAoaaF'
+        Building CXX object CMakeFiles/cmTC_30a26.dir/CMakeCXXCompilerABI.cpp.o
+        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/bin/g++   -v -o CMakeFiles/cmTC_30a26.dir/CMakeCXXCompilerABI.cpp.o -c /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp
         Reading specs from /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/specs
         COLLECT_GCC=/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/bin/g++
         Target: x86_64-pc-linux-gnu
@@ -311,8 +312,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 14.2.0 (Spack GCC) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c3e28.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c3e28.dir/'
-         /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/cc1plus -quiet -v -D_GNU_SOURCE /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_c3e28.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccv1uVIY.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_30a26.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_30a26.dir/'
+         /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/cc1plus -quiet -v -D_GNU_SOURCE /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_30a26.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/cc8xP9yW.s
         GNU C++17 (Spack GCC) version 14.2.0 (x86_64-pc-linux-gnu)
         	compiled by GNU C version 14.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version none
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -329,14 +330,14 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: fcb63291415186425daba21fe38028f5
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c3e28.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c3e28.dir/'
-         as -v --64 -o CMakeFiles/cmTC_c3e28.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccv1uVIY.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_30a26.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_30a26.dir/'
+         as -v --64 -o CMakeFiles/cmTC_30a26.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc8xP9yW.s
         GNU assembler version 2.35.2 (x86_64-redhat-linux) using BFD version version 2.35.2-43.el9
         COMPILER_PATH=/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/:/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/:/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/:/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/:/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/:/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c3e28.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c3e28.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_c3e28
-        /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3e28.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_30a26.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_30a26.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_30a26
+        /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30a26.dir/link.txt --verbose=1
         Reading specs from /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/specs
         COLLECT_GCC=/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/bin/g++
         COLLECT_LTO_WRAPPER=/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/lto-wrapper
@@ -347,14 +348,14 @@ events:
         gcc version 14.2.0 (Spack GCC) 
         COMPILER_PATH=/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/:/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/:/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/:/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/:/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/:/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_c3e28' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c3e28.'
-         /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/collect2 -plugin /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/liblto_plugin.so -plugin-opt=/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxFi9RN.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_c3e28 /lib/../lib64/crt1.o /lib/../lib64/crti.o /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/crtbegin.o -L/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0 -L/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../.. -rpath /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib64 -v CMakeFiles/cmTC_c3e28.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/crtend.o /lib/../lib64/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_30a26' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_30a26.'
+         /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/collect2 -plugin /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/liblto_plugin.so -plugin-opt=/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEOsoCY.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_30a26 /lib/../lib64/crt1.o /lib/../lib64/crti.o /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/crtbegin.o -L/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0 -L/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../.. -rpath /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib64 -v CMakeFiles/cmTC_30a26.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/crtend.o /lib/../lib64/crtn.o
         collect2 version 14.2.0
-        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/binutils-2.43.1-xnihz7pfq4oidn3hgnhbbxzdfjmxpmhy/bin/ld -plugin /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/liblto_plugin.so -plugin-opt=/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxFi9RN.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_c3e28 /lib/../lib64/crt1.o /lib/../lib64/crti.o /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/crtbegin.o -L/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0 -L/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../.. -rpath /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib64 -v CMakeFiles/cmTC_c3e28.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/crtend.o /lib/../lib64/crtn.o
+        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/binutils-2.43.1-xnihz7pfq4oidn3hgnhbbxzdfjmxpmhy/bin/ld -plugin /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/liblto_plugin.so -plugin-opt=/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEOsoCY.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_30a26 /lib/../lib64/crt1.o /lib/../lib64/crti.o /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/crtbegin.o -L/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0 -L/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../.. -rpath /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib64 -v CMakeFiles/cmTC_30a26.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/crtend.o /lib/../lib64/crtn.o
         GNU ld (GNU Binutils) 2.43.1
-        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_c3e28' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c3e28.'
-        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/bin/g++  -v -Wl,-v -rdynamic CMakeFiles/cmTC_c3e28.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_c3e28
-        gmake[1]: Leaving directory '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-ZEmK9b'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_30a26' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_30a26.'
+        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/bin/g++  -v -Wl,-v CMakeFiles/cmTC_30a26.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_30a26
+        gmake[1]: Leaving directory '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-qAoaaF'
         
       exitCode: 0
   -
@@ -362,7 +363,7 @@ events:
     backtrace:
       - "/shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
       - "/shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Parsed CXX implicit include dir info: rv=done
         found start of include info
@@ -392,18 +393,18 @@ events:
     backtrace:
       - "/shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
       - "/shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-ZEmK9b']
+        ignore line: [Change Dir: '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-qAoaaF']
         ignore line: []
-        ignore line: [Run Build Command(s): /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/bin/cmake -E env VERBOSE=1 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.5.0/gmake-4.4.1-55iqpat6q65m6okgepy7xhmo2p2yxsat/bin/gmake -f Makefile cmTC_c3e28/fast]
-        ignore line: [/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.5.0/gmake-4.4.1-55iqpat6q65m6okgepy7xhmo2p2yxsat/bin/gmake  -f CMakeFiles/cmTC_c3e28.dir/build.make CMakeFiles/cmTC_c3e28.dir/build]
-        ignore line: [gmake[1]: Entering directory '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-ZEmK9b']
-        ignore line: [Building CXX object CMakeFiles/cmTC_c3e28.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/bin/g++   -v -o CMakeFiles/cmTC_c3e28.dir/CMakeCXXCompilerABI.cpp.o -c /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/bin/cmake -E env VERBOSE=1 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.5.0/gmake-4.4.1-55iqpat6q65m6okgepy7xhmo2p2yxsat/bin/gmake -f Makefile cmTC_30a26/fast]
+        ignore line: [/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.5.0/gmake-4.4.1-55iqpat6q65m6okgepy7xhmo2p2yxsat/bin/gmake  -f CMakeFiles/cmTC_30a26.dir/build.make CMakeFiles/cmTC_30a26.dir/build]
+        ignore line: [gmake[1]: Entering directory '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-qAoaaF']
+        ignore line: [Building CXX object CMakeFiles/cmTC_30a26.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/bin/g++   -v -o CMakeFiles/cmTC_30a26.dir/CMakeCXXCompilerABI.cpp.o -c /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Reading specs from /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/specs]
         ignore line: [COLLECT_GCC=/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/bin/g++]
         ignore line: [Target: x86_64-pc-linux-gnu]
@@ -411,8 +412,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 14.2.0 (Spack GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c3e28.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c3e28.dir/']
-        ignore line: [ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/cc1plus -quiet -v -D_GNU_SOURCE /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_c3e28.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccv1uVIY.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_30a26.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_30a26.dir/']
+        ignore line: [ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/cc1plus -quiet -v -D_GNU_SOURCE /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_30a26.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/cc8xP9yW.s]
         ignore line: [GNU C++17 (Spack GCC) version 14.2.0 (x86_64-pc-linux-gnu)]
         ignore line: [	compiled by GNU C version 14.2.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version none]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -429,14 +430,14 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: fcb63291415186425daba21fe38028f5]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c3e28.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c3e28.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_c3e28.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccv1uVIY.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_30a26.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_30a26.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_30a26.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc8xP9yW.s]
         ignore line: [GNU assembler version 2.35.2 (x86_64-redhat-linux) using BFD version version 2.35.2-43.el9]
         ignore line: [COMPILER_PATH=/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/:/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/:/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/:/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/:/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/:/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c3e28.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c3e28.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_c3e28]
-        ignore line: [/shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3e28.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_30a26.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_30a26.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_30a26]
+        ignore line: [/shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30a26.dir/link.txt --verbose=1]
         ignore line: [Reading specs from /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/specs]
         ignore line: [COLLECT_GCC=/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/bin/g++]
         ignore line: [COLLECT_LTO_WRAPPER=/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/lto-wrapper]
@@ -447,13 +448,13 @@ events:
         ignore line: [gcc version 14.2.0 (Spack GCC) ]
         ignore line: [COMPILER_PATH=/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/:/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/:/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/:/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/:/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/:/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_c3e28' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c3e28.']
-        link line: [ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/collect2 -plugin /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/liblto_plugin.so -plugin-opt=/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxFi9RN.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_c3e28 /lib/../lib64/crt1.o /lib/../lib64/crti.o /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/crtbegin.o -L/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0 -L/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../.. -rpath /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib64 -v CMakeFiles/cmTC_c3e28.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/crtend.o /lib/../lib64/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_30a26' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_30a26.']
+        link line: [ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/collect2 -plugin /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/liblto_plugin.so -plugin-opt=/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEOsoCY.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_30a26 /lib/../lib64/crt1.o /lib/../lib64/crti.o /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/crtbegin.o -L/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0 -L/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../.. -rpath /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib64 -v CMakeFiles/cmTC_30a26.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/crtend.o /lib/../lib64/crtn.o]
           arg [/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccxFi9RN.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccEOsoCY.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -462,11 +463,10 @@ events:
           arg [--eh-frame-hdr] ==> ignore
           arg [-m] ==> ignore
           arg [elf_x86_64] ==> ignore
-          arg [-export-dynamic] ==> ignore
           arg [-dynamic-linker] ==> ignore
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_c3e28] ==> ignore
+          arg [cmTC_30a26] ==> ignore
           arg [/lib/../lib64/crt1.o] ==> obj [/lib/../lib64/crt1.o]
           arg [/lib/../lib64/crti.o] ==> obj [/lib/../lib64/crti.o]
           arg [/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/crtbegin.o] ==> obj [/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/crtbegin.o]
@@ -478,7 +478,7 @@ events:
           arg [-rpath] ==> ignore
           arg [/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib64] ==> ignore
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_c3e28.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_30a26.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -489,7 +489,7 @@ events:
           arg [/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/crtend.o] ==> obj [/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/crtend.o]
           arg [/lib/../lib64/crtn.o] ==> obj [/lib/../lib64/crtn.o]
         ignore line: [collect2 version 14.2.0]
-        ignore line: [/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/binutils-2.43.1-xnihz7pfq4oidn3hgnhbbxzdfjmxpmhy/bin/ld -plugin /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/liblto_plugin.so -plugin-opt=/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxFi9RN.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_c3e28 /lib/../lib64/crt1.o /lib/../lib64/crti.o /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/crtbegin.o -L/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0 -L/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../.. -rpath /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib64 -v CMakeFiles/cmTC_c3e28.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/crtend.o /lib/../lib64/crtn.o]
+        ignore line: [/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/binutils-2.43.1-xnihz7pfq4oidn3hgnhbbxzdfjmxpmhy/bin/ld -plugin /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/liblto_plugin.so -plugin-opt=/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/libexec/gcc/x86_64-pc-linux-gnu/14.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEOsoCY.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_30a26 /lib/../lib64/crt1.o /lib/../lib64/crti.o /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/crtbegin.o -L/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0 -L/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../.. -rpath /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib64 -v CMakeFiles/cmTC_30a26.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/crtend.o /lib/../lib64/crtn.o]
         linker tool for 'CXX': /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/binutils-2.43.1-xnihz7pfq4oidn3hgnhbbxzdfjmxpmhy/bin/ld
         collapse obj [/lib/../lib64/crt1.o] ==> [/lib64/crt1.o]
         collapse obj [/lib/../lib64/crti.o] ==> [/lib64/crti.o]
@@ -511,7 +511,7 @@ events:
       - "/shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
       - "/shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
       - "/shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Running the CXX compiler's linker: "/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/binutils-2.43.1-xnihz7pfq4oidn3hgnhbbxzdfjmxpmhy/bin/ld" "-v"
       GNU ld (GNU Binutils) 2.43.1
@@ -526,12 +526,12 @@ events:
       - "/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/lib64/cmake/Geant4/PTL/PTLConfig.cmake:56 (find_dependency)"
       - "/shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
       - "/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/lib64/cmake/Geant4/Geant4Config.cmake:301 (find_dependency)"
-      - "B2a/CMakeLists.txt:11 (find_package)"
+      - "CMakeLists.txt:4 (find_package)"
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-ORWlkw"
-      binary: "/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-ORWlkw"
+      source: "/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-YTJjao"
+      binary: "/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-YTJjao"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -541,17 +541,17 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-ORWlkw'
+        Change Dir: '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-YTJjao'
         
-        Run Build Command(s): /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/bin/cmake -E env VERBOSE=1 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.5.0/gmake-4.4.1-55iqpat6q65m6okgepy7xhmo2p2yxsat/bin/gmake -f Makefile cmTC_50aa1/fast
-        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.5.0/gmake-4.4.1-55iqpat6q65m6okgepy7xhmo2p2yxsat/bin/gmake  -f CMakeFiles/cmTC_50aa1.dir/build.make CMakeFiles/cmTC_50aa1.dir/build
-        gmake[1]: Entering directory '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-ORWlkw'
-        Building C object CMakeFiles/cmTC_50aa1.dir/src.c.o
-        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/bin/gcc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_50aa1.dir/src.c.o -c /lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-ORWlkw/src.c
-        Linking C executable cmTC_50aa1
-        /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50aa1.dir/link.txt --verbose=1
-        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/bin/gcc CMakeFiles/cmTC_50aa1.dir/src.c.o -o cmTC_50aa1
-        gmake[1]: Leaving directory '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-ORWlkw'
+        Run Build Command(s): /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/bin/cmake -E env VERBOSE=1 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.5.0/gmake-4.4.1-55iqpat6q65m6okgepy7xhmo2p2yxsat/bin/gmake -f Makefile cmTC_e0004/fast
+        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.5.0/gmake-4.4.1-55iqpat6q65m6okgepy7xhmo2p2yxsat/bin/gmake  -f CMakeFiles/cmTC_e0004.dir/build.make CMakeFiles/cmTC_e0004.dir/build
+        gmake[1]: Entering directory '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-YTJjao'
+        Building C object CMakeFiles/cmTC_e0004.dir/src.c.o
+        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/bin/gcc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_e0004.dir/src.c.o -c /lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-YTJjao/src.c
+        Linking C executable cmTC_e0004
+        /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0004.dir/link.txt --verbose=1
+        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/bin/gcc CMakeFiles/cmTC_e0004.dir/src.c.o -o cmTC_e0004
+        gmake[1]: Leaving directory '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-YTJjao'
         
       exitCode: 0
   -
@@ -561,12 +561,12 @@ events:
       - "/shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/share/cmake-3.31/Modules/FindX11.cmake:693 (check_library_exists)"
       - "/shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
       - "/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/lib64/cmake/Geant4/Geant4Config.cmake:361 (find_dependency)"
-      - "B2a/CMakeLists.txt:11 (find_package)"
+      - "CMakeLists.txt:4 (find_package)"
     checks:
       - "Looking for XOpenDisplay in /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/libx11-1.8.10-uy7r2qjxl2obptl3ngz2mtyy2fxjjvnt/lib/libX11.so;/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/libxext-1.3.6-3nmqnp2jdqxzj6xqeud57qwqu6cirh3w/lib/libXext.so"
     directories:
-      source: "/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-B0yJOP"
-      binary: "/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-B0yJOP"
+      source: "/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-izX6bA"
+      binary: "/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-izX6bA"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -576,17 +576,17 @@ events:
       variable: "X11_LIB_X11_SOLO"
       cached: true
       stdout: |
-        Change Dir: '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-B0yJOP'
+        Change Dir: '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-izX6bA'
         
-        Run Build Command(s): /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/bin/cmake -E env VERBOSE=1 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.5.0/gmake-4.4.1-55iqpat6q65m6okgepy7xhmo2p2yxsat/bin/gmake -f Makefile cmTC_10066/fast
-        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.5.0/gmake-4.4.1-55iqpat6q65m6okgepy7xhmo2p2yxsat/bin/gmake  -f CMakeFiles/cmTC_10066.dir/build.make CMakeFiles/cmTC_10066.dir/build
-        gmake[1]: Entering directory '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-B0yJOP'
-        Building C object CMakeFiles/cmTC_10066.dir/CheckFunctionExists.c.o
-        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/bin/gcc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_10066.dir/CheckFunctionExists.c.o -c /lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-B0yJOP/CheckFunctionExists.c
-        Linking C executable cmTC_10066
-        /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10066.dir/link.txt --verbose=1
-        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/bin/gcc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_10066.dir/CheckFunctionExists.c.o -o cmTC_10066   -L/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/libx11-1.8.10-uy7r2qjxl2obptl3ngz2mtyy2fxjjvnt/lib  -Wl,-rpath,/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/libx11-1.8.10-uy7r2qjxl2obptl3ngz2mtyy2fxjjvnt/lib:/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/libxext-1.3.6-3nmqnp2jdqxzj6xqeud57qwqu6cirh3w/lib /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/libx11-1.8.10-uy7r2qjxl2obptl3ngz2mtyy2fxjjvnt/lib/libX11.so /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/libxext-1.3.6-3nmqnp2jdqxzj6xqeud57qwqu6cirh3w/lib/libXext.so
-        gmake[1]: Leaving directory '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-B0yJOP'
+        Run Build Command(s): /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/bin/cmake -E env VERBOSE=1 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.5.0/gmake-4.4.1-55iqpat6q65m6okgepy7xhmo2p2yxsat/bin/gmake -f Makefile cmTC_862dc/fast
+        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.5.0/gmake-4.4.1-55iqpat6q65m6okgepy7xhmo2p2yxsat/bin/gmake  -f CMakeFiles/cmTC_862dc.dir/build.make CMakeFiles/cmTC_862dc.dir/build
+        gmake[1]: Entering directory '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-izX6bA'
+        Building C object CMakeFiles/cmTC_862dc.dir/CheckFunctionExists.c.o
+        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/bin/gcc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_862dc.dir/CheckFunctionExists.c.o -c /lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-izX6bA/CheckFunctionExists.c
+        Linking C executable cmTC_862dc
+        /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_862dc.dir/link.txt --verbose=1
+        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/bin/gcc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_862dc.dir/CheckFunctionExists.c.o -o cmTC_862dc   -L/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/libx11-1.8.10-uy7r2qjxl2obptl3ngz2mtyy2fxjjvnt/lib  -Wl,-rpath,/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/libx11-1.8.10-uy7r2qjxl2obptl3ngz2mtyy2fxjjvnt/lib:/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/libxext-1.3.6-3nmqnp2jdqxzj6xqeud57qwqu6cirh3w/lib /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/libx11-1.8.10-uy7r2qjxl2obptl3ngz2mtyy2fxjjvnt/lib/libX11.so /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/libxext-1.3.6-3nmqnp2jdqxzj6xqeud57qwqu6cirh3w/lib/libXext.so
+        gmake[1]: Leaving directory '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-izX6bA'
         
       exitCode: 0
   -
@@ -596,12 +596,12 @@ events:
       - "/shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/share/cmake-3.31/Modules/FindX11.cmake:708 (check_function_exists)"
       - "/shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
       - "/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/lib64/cmake/Geant4/Geant4Config.cmake:361 (find_dependency)"
-      - "B2a/CMakeLists.txt:11 (find_package)"
+      - "CMakeLists.txt:4 (find_package)"
     checks:
       - "Looking for gethostbyname"
     directories:
-      source: "/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-U4JEsF"
-      binary: "/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-U4JEsF"
+      source: "/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-yxYs03"
+      binary: "/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-yxYs03"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -611,17 +611,17 @@ events:
       variable: "CMAKE_HAVE_GETHOSTBYNAME"
       cached: true
       stdout: |
-        Change Dir: '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-U4JEsF'
+        Change Dir: '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-yxYs03'
         
-        Run Build Command(s): /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/bin/cmake -E env VERBOSE=1 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.5.0/gmake-4.4.1-55iqpat6q65m6okgepy7xhmo2p2yxsat/bin/gmake -f Makefile cmTC_cf214/fast
-        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.5.0/gmake-4.4.1-55iqpat6q65m6okgepy7xhmo2p2yxsat/bin/gmake  -f CMakeFiles/cmTC_cf214.dir/build.make CMakeFiles/cmTC_cf214.dir/build
-        gmake[1]: Entering directory '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-U4JEsF'
-        Building C object CMakeFiles/cmTC_cf214.dir/CheckFunctionExists.c.o
-        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/bin/gcc   -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_cf214.dir/CheckFunctionExists.c.o -c /lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-U4JEsF/CheckFunctionExists.c
-        Linking C executable cmTC_cf214
-        /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf214.dir/link.txt --verbose=1
-        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/bin/gcc  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_cf214.dir/CheckFunctionExists.c.o -o cmTC_cf214
-        gmake[1]: Leaving directory '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-U4JEsF'
+        Run Build Command(s): /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/bin/cmake -E env VERBOSE=1 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.5.0/gmake-4.4.1-55iqpat6q65m6okgepy7xhmo2p2yxsat/bin/gmake -f Makefile cmTC_6330d/fast
+        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.5.0/gmake-4.4.1-55iqpat6q65m6okgepy7xhmo2p2yxsat/bin/gmake  -f CMakeFiles/cmTC_6330d.dir/build.make CMakeFiles/cmTC_6330d.dir/build
+        gmake[1]: Entering directory '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-yxYs03'
+        Building C object CMakeFiles/cmTC_6330d.dir/CheckFunctionExists.c.o
+        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/bin/gcc   -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_6330d.dir/CheckFunctionExists.c.o -c /lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-yxYs03/CheckFunctionExists.c
+        Linking C executable cmTC_6330d
+        /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6330d.dir/link.txt --verbose=1
+        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/bin/gcc  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_6330d.dir/CheckFunctionExists.c.o -o cmTC_6330d
+        gmake[1]: Leaving directory '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-yxYs03'
         
       exitCode: 0
   -
@@ -631,12 +631,12 @@ events:
       - "/shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/share/cmake-3.31/Modules/FindX11.cmake:722 (check_function_exists)"
       - "/shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
       - "/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/lib64/cmake/Geant4/Geant4Config.cmake:361 (find_dependency)"
-      - "B2a/CMakeLists.txt:11 (find_package)"
+      - "CMakeLists.txt:4 (find_package)"
     checks:
       - "Looking for connect"
     directories:
-      source: "/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-vewg9X"
-      binary: "/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-vewg9X"
+      source: "/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-2osiaX"
+      binary: "/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-2osiaX"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -646,17 +646,17 @@ events:
       variable: "CMAKE_HAVE_CONNECT"
       cached: true
       stdout: |
-        Change Dir: '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-vewg9X'
+        Change Dir: '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-2osiaX'
         
-        Run Build Command(s): /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/bin/cmake -E env VERBOSE=1 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.5.0/gmake-4.4.1-55iqpat6q65m6okgepy7xhmo2p2yxsat/bin/gmake -f Makefile cmTC_8db4e/fast
-        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.5.0/gmake-4.4.1-55iqpat6q65m6okgepy7xhmo2p2yxsat/bin/gmake  -f CMakeFiles/cmTC_8db4e.dir/build.make CMakeFiles/cmTC_8db4e.dir/build
-        gmake[1]: Entering directory '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-vewg9X'
-        Building C object CMakeFiles/cmTC_8db4e.dir/CheckFunctionExists.c.o
-        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/bin/gcc   -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_8db4e.dir/CheckFunctionExists.c.o -c /lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-vewg9X/CheckFunctionExists.c
-        Linking C executable cmTC_8db4e
-        /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8db4e.dir/link.txt --verbose=1
-        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/bin/gcc  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_8db4e.dir/CheckFunctionExists.c.o -o cmTC_8db4e
-        gmake[1]: Leaving directory '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-vewg9X'
+        Run Build Command(s): /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/bin/cmake -E env VERBOSE=1 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.5.0/gmake-4.4.1-55iqpat6q65m6okgepy7xhmo2p2yxsat/bin/gmake -f Makefile cmTC_20cb7/fast
+        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.5.0/gmake-4.4.1-55iqpat6q65m6okgepy7xhmo2p2yxsat/bin/gmake  -f CMakeFiles/cmTC_20cb7.dir/build.make CMakeFiles/cmTC_20cb7.dir/build
+        gmake[1]: Entering directory '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-2osiaX'
+        Building C object CMakeFiles/cmTC_20cb7.dir/CheckFunctionExists.c.o
+        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/bin/gcc   -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_20cb7.dir/CheckFunctionExists.c.o -c /lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-2osiaX/CheckFunctionExists.c
+        Linking C executable cmTC_20cb7
+        /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20cb7.dir/link.txt --verbose=1
+        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/bin/gcc  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_20cb7.dir/CheckFunctionExists.c.o -o cmTC_20cb7
+        gmake[1]: Leaving directory '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-2osiaX'
         
       exitCode: 0
   -
@@ -666,12 +666,12 @@ events:
       - "/shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/share/cmake-3.31/Modules/FindX11.cmake:731 (check_function_exists)"
       - "/shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
       - "/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/lib64/cmake/Geant4/Geant4Config.cmake:361 (find_dependency)"
-      - "B2a/CMakeLists.txt:11 (find_package)"
+      - "CMakeLists.txt:4 (find_package)"
     checks:
       - "Looking for remove"
     directories:
-      source: "/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-tcc1Sq"
-      binary: "/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-tcc1Sq"
+      source: "/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-ZuKQ3M"
+      binary: "/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-ZuKQ3M"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -681,17 +681,17 @@ events:
       variable: "CMAKE_HAVE_REMOVE"
       cached: true
       stdout: |
-        Change Dir: '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-tcc1Sq'
+        Change Dir: '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-ZuKQ3M'
         
-        Run Build Command(s): /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/bin/cmake -E env VERBOSE=1 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.5.0/gmake-4.4.1-55iqpat6q65m6okgepy7xhmo2p2yxsat/bin/gmake -f Makefile cmTC_9e22d/fast
-        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.5.0/gmake-4.4.1-55iqpat6q65m6okgepy7xhmo2p2yxsat/bin/gmake  -f CMakeFiles/cmTC_9e22d.dir/build.make CMakeFiles/cmTC_9e22d.dir/build
-        gmake[1]: Entering directory '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-tcc1Sq'
-        Building C object CMakeFiles/cmTC_9e22d.dir/CheckFunctionExists.c.o
-        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/bin/gcc   -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_9e22d.dir/CheckFunctionExists.c.o -c /lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-tcc1Sq/CheckFunctionExists.c
-        Linking C executable cmTC_9e22d
-        /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9e22d.dir/link.txt --verbose=1
-        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/bin/gcc  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_9e22d.dir/CheckFunctionExists.c.o -o cmTC_9e22d
-        gmake[1]: Leaving directory '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-tcc1Sq'
+        Run Build Command(s): /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/bin/cmake -E env VERBOSE=1 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.5.0/gmake-4.4.1-55iqpat6q65m6okgepy7xhmo2p2yxsat/bin/gmake -f Makefile cmTC_bec35/fast
+        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.5.0/gmake-4.4.1-55iqpat6q65m6okgepy7xhmo2p2yxsat/bin/gmake  -f CMakeFiles/cmTC_bec35.dir/build.make CMakeFiles/cmTC_bec35.dir/build
+        gmake[1]: Entering directory '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-ZuKQ3M'
+        Building C object CMakeFiles/cmTC_bec35.dir/CheckFunctionExists.c.o
+        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/bin/gcc   -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_bec35.dir/CheckFunctionExists.c.o -c /lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-ZuKQ3M/CheckFunctionExists.c
+        Linking C executable cmTC_bec35
+        /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bec35.dir/link.txt --verbose=1
+        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/bin/gcc  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_bec35.dir/CheckFunctionExists.c.o -o cmTC_bec35
+        gmake[1]: Leaving directory '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-ZuKQ3M'
         
       exitCode: 0
   -
@@ -701,12 +701,12 @@ events:
       - "/shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/share/cmake-3.31/Modules/FindX11.cmake:740 (check_function_exists)"
       - "/shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
       - "/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/lib64/cmake/Geant4/Geant4Config.cmake:361 (find_dependency)"
-      - "B2a/CMakeLists.txt:11 (find_package)"
+      - "CMakeLists.txt:4 (find_package)"
     checks:
       - "Looking for shmat"
     directories:
-      source: "/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-3n5rq2"
-      binary: "/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-3n5rq2"
+      source: "/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-fDSEFW"
+      binary: "/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-fDSEFW"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -716,17 +716,17 @@ events:
       variable: "CMAKE_HAVE_SHMAT"
       cached: true
       stdout: |
-        Change Dir: '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-3n5rq2'
+        Change Dir: '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-fDSEFW'
         
-        Run Build Command(s): /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/bin/cmake -E env VERBOSE=1 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.5.0/gmake-4.4.1-55iqpat6q65m6okgepy7xhmo2p2yxsat/bin/gmake -f Makefile cmTC_57b94/fast
-        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.5.0/gmake-4.4.1-55iqpat6q65m6okgepy7xhmo2p2yxsat/bin/gmake  -f CMakeFiles/cmTC_57b94.dir/build.make CMakeFiles/cmTC_57b94.dir/build
-        gmake[1]: Entering directory '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-3n5rq2'
-        Building C object CMakeFiles/cmTC_57b94.dir/CheckFunctionExists.c.o
-        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/bin/gcc   -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_57b94.dir/CheckFunctionExists.c.o -c /lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-3n5rq2/CheckFunctionExists.c
-        Linking C executable cmTC_57b94
-        /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57b94.dir/link.txt --verbose=1
-        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/bin/gcc  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_57b94.dir/CheckFunctionExists.c.o -o cmTC_57b94
-        gmake[1]: Leaving directory '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-3n5rq2'
+        Run Build Command(s): /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/bin/cmake -E env VERBOSE=1 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.5.0/gmake-4.4.1-55iqpat6q65m6okgepy7xhmo2p2yxsat/bin/gmake -f Makefile cmTC_a2035/fast
+        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.5.0/gmake-4.4.1-55iqpat6q65m6okgepy7xhmo2p2yxsat/bin/gmake  -f CMakeFiles/cmTC_a2035.dir/build.make CMakeFiles/cmTC_a2035.dir/build
+        gmake[1]: Entering directory '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-fDSEFW'
+        Building C object CMakeFiles/cmTC_a2035.dir/CheckFunctionExists.c.o
+        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/bin/gcc   -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_a2035.dir/CheckFunctionExists.c.o -c /lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-fDSEFW/CheckFunctionExists.c
+        Linking C executable cmTC_a2035
+        /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2035.dir/link.txt --verbose=1
+        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/bin/gcc  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_a2035.dir/CheckFunctionExists.c.o -o cmTC_a2035
+        gmake[1]: Leaving directory '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-fDSEFW'
         
       exitCode: 0
   -
@@ -736,12 +736,12 @@ events:
       - "/shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/share/cmake-3.31/Modules/FindX11.cmake:750 (check_library_exists)"
       - "/shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
       - "/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/lib64/cmake/Geant4/Geant4Config.cmake:361 (find_dependency)"
-      - "B2a/CMakeLists.txt:11 (find_package)"
+      - "CMakeLists.txt:4 (find_package)"
     checks:
       - "Looking for IceConnectionNumber in ICE"
     directories:
-      source: "/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-m0RB37"
-      binary: "/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-m0RB37"
+      source: "/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-jIxkKQ"
+      binary: "/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-jIxkKQ"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -751,17 +751,17 @@ events:
       variable: "CMAKE_LIB_ICE_HAS_ICECONNECTIONNUMBER"
       cached: true
       stdout: |
-        Change Dir: '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-m0RB37'
+        Change Dir: '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-jIxkKQ'
         
-        Run Build Command(s): /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/bin/cmake -E env VERBOSE=1 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.5.0/gmake-4.4.1-55iqpat6q65m6okgepy7xhmo2p2yxsat/bin/gmake -f Makefile cmTC_647ca/fast
-        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.5.0/gmake-4.4.1-55iqpat6q65m6okgepy7xhmo2p2yxsat/bin/gmake  -f CMakeFiles/cmTC_647ca.dir/build.make CMakeFiles/cmTC_647ca.dir/build
-        gmake[1]: Entering directory '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-m0RB37'
-        Building C object CMakeFiles/cmTC_647ca.dir/CheckFunctionExists.c.o
-        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/bin/gcc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -o CMakeFiles/cmTC_647ca.dir/CheckFunctionExists.c.o -c /lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-m0RB37/CheckFunctionExists.c
-        Linking C executable cmTC_647ca
-        /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_647ca.dir/link.txt --verbose=1
-        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/bin/gcc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_647ca.dir/CheckFunctionExists.c.o -o cmTC_647ca   -L/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/libx11-1.8.10-uy7r2qjxl2obptl3ngz2mtyy2fxjjvnt/lib  -Wl,-rpath,/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/libx11-1.8.10-uy7r2qjxl2obptl3ngz2mtyy2fxjjvnt/lib -lICE
-        gmake[1]: Leaving directory '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-m0RB37'
+        Run Build Command(s): /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/bin/cmake -E env VERBOSE=1 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.5.0/gmake-4.4.1-55iqpat6q65m6okgepy7xhmo2p2yxsat/bin/gmake -f Makefile cmTC_ad331/fast
+        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.5.0/gmake-4.4.1-55iqpat6q65m6okgepy7xhmo2p2yxsat/bin/gmake  -f CMakeFiles/cmTC_ad331.dir/build.make CMakeFiles/cmTC_ad331.dir/build
+        gmake[1]: Entering directory '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-jIxkKQ'
+        Building C object CMakeFiles/cmTC_ad331.dir/CheckFunctionExists.c.o
+        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/bin/gcc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -o CMakeFiles/cmTC_ad331.dir/CheckFunctionExists.c.o -c /lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-jIxkKQ/CheckFunctionExists.c
+        Linking C executable cmTC_ad331
+        /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad331.dir/link.txt --verbose=1
+        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/bin/gcc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_ad331.dir/CheckFunctionExists.c.o -o cmTC_ad331   -L/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/libx11-1.8.10-uy7r2qjxl2obptl3ngz2mtyy2fxjjvnt/lib  -Wl,-rpath,/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/libx11-1.8.10-uy7r2qjxl2obptl3ngz2mtyy2fxjjvnt/lib -lICE
+        gmake[1]: Leaving directory '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-jIxkKQ'
         
       exitCode: 0
   -
@@ -776,12 +776,12 @@ events:
       - "/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/qt-base-6.8.1-nyek7hq3md2ayabbdmqsuhasld2gzou6/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:45 (include)"
       - "/shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
       - "/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/lib64/cmake/Geant4/Geant4Config.cmake:371 (find_dependency)"
-      - "B2a/CMakeLists.txt:11 (find_package)"
+      - "CMakeLists.txt:4 (find_package)"
     checks:
       - "Performing Test HAVE_STDATOMIC"
     directories:
-      source: "/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-zqDuFK"
-      binary: "/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-zqDuFK"
+      source: "/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-m4j2z7"
+      binary: "/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-m4j2z7"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -791,17 +791,17 @@ events:
       variable: "HAVE_STDATOMIC"
       cached: true
       stdout: |
-        Change Dir: '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-zqDuFK'
+        Change Dir: '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-m4j2z7'
         
-        Run Build Command(s): /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/bin/cmake -E env VERBOSE=1 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.5.0/gmake-4.4.1-55iqpat6q65m6okgepy7xhmo2p2yxsat/bin/gmake -f Makefile cmTC_92a29/fast
-        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.5.0/gmake-4.4.1-55iqpat6q65m6okgepy7xhmo2p2yxsat/bin/gmake  -f CMakeFiles/cmTC_92a29.dir/build.make CMakeFiles/cmTC_92a29.dir/build
-        gmake[1]: Entering directory '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-zqDuFK'
-        Building CXX object CMakeFiles/cmTC_92a29.dir/src.cxx.o
-        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/bin/g++ -DHAVE_STDATOMIC   -o CMakeFiles/cmTC_92a29.dir/src.cxx.o -c /lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-zqDuFK/src.cxx
-        Linking CXX executable cmTC_92a29
-        /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92a29.dir/link.txt --verbose=1
-        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/bin/g++ CMakeFiles/cmTC_92a29.dir/src.cxx.o -o cmTC_92a29
-        gmake[1]: Leaving directory '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-zqDuFK'
+        Run Build Command(s): /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/bin/cmake -E env VERBOSE=1 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.5.0/gmake-4.4.1-55iqpat6q65m6okgepy7xhmo2p2yxsat/bin/gmake -f Makefile cmTC_b1881/fast
+        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.5.0/gmake-4.4.1-55iqpat6q65m6okgepy7xhmo2p2yxsat/bin/gmake  -f CMakeFiles/cmTC_b1881.dir/build.make CMakeFiles/cmTC_b1881.dir/build
+        gmake[1]: Entering directory '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-m4j2z7'
+        Building CXX object CMakeFiles/cmTC_b1881.dir/src.cxx.o
+        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/bin/g++ -DHAVE_STDATOMIC   -o CMakeFiles/cmTC_b1881.dir/src.cxx.o -c /lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-m4j2z7/src.cxx
+        Linking CXX executable cmTC_b1881
+        /shared/spack/opt/spack/linux-almalinux9-zen4/aocc-5.0.0/cmake-3.31.5-oecju25gxvpv2yuhkpfutffwjxllshr6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1881.dir/link.txt --verbose=1
+        /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/bin/g++ CMakeFiles/cmTC_b1881.dir/src.cxx.o -o cmTC_b1881
+        gmake[1]: Leaving directory '/lustre/home/agonzalez/SimGeant4/ejercicios/Ej2/Build/CMakeFiles/CMakeScratch/TryCompile-m4j2z7'
         
       exitCode: 0
 ...
