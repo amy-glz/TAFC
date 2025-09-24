@@ -35,14 +35,14 @@
 /score/create/boxMesh boxMesh_1
 /score/mesh/translate/xyz 0 0 -49.5 mm
 /score/mesh/boxSize 50 50 1 mm  # half dim
-/score/mesh/nBin 101 101 1
+/score/mesh/nBin 51 51 1
 /score/quantity/doseDeposit dDep
 /score/close
 /score/list
 
 #
 /run/printProgress 10
-/run/beamOn 50
+/run/beamOn 100000
 
 #/score/drawProjection boxMesh_1 dDep
 /score/dumpQuantityToFile boxMesh_1 dDep dDep.txt

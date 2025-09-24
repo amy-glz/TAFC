@@ -3,9 +3,9 @@
 
 CMakeFiles/Ejercicio3.dir/Ej3.cc.o
  /lustre/home/agonzalez/SimGeant4/ejercicios/Ej3/Ejercicio3/Ej3.cc
+ /lustre/home/agonzalez/SimGeant4/ejercicios/Ej3/Ejercicio3/include/ActionInitialization.hh
  /lustre/home/agonzalez/SimGeant4/ejercicios/Ej3/Ejercicio3/include/DetectorConstruction.hh
  /lustre/home/agonzalez/SimGeant4/ejercicios/Ej3/Ejercicio3/include/PhysicsList.hh
- /lustre/home/agonzalez/SimGeant4/ejercicios/Ej3/Ejercicio3/include/PrimaryGeneratorAction.hh
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/algorithm
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/array
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/atomic
@@ -355,7 +355,6 @@ CMakeFiles/Ejercicio3.dir/Ej3.cc.o
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Cons.icc
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4DAWNFILE.hh
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4DCofThisEvent.hh
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4DataInterpolation.hh
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4DataVector.hh
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4DataVector.icc
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4DensityEffectCalculator.hh
@@ -376,9 +375,6 @@ CMakeFiles/Ejercicio3.dir/Ej3.cc.o
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ForceCondition.hh
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4GMocrenFile.hh
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4GPILSelection.hh
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4GeneralParticleSource.hh
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4GeneralParticleSourceData.hh
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4GeneralParticleSourceMessenger.hh
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4GeomConfig.hh
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4GeomSplitter.hh
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4GeomTypes.hh
@@ -484,10 +480,6 @@ CMakeFiles/Ejercicio3.dir/Ej3.cc.o
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4RotationMatrix.hh
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4RunManager.hh
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4RunManagerKernel.hh
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4SPSAngDistribution.hh
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4SPSEneDistribution.hh
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4SPSPosDistribution.hh
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4SPSRandomGenerator.hh
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4SandiaTable.hh
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Scene.hh
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Scene.icc
@@ -495,7 +487,6 @@ CMakeFiles/Ejercicio3.dir/Ej3.cc.o
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4SceneList.hh
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4SceneTreeItem.hh
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ScoringManager.hh
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4SingleParticleSource.hh
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4SmartTrackStack.hh
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4SmartVoxelHeader.hh
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4SmartVoxelHeader.icc
@@ -593,7 +584,6 @@ CMakeFiles/Ejercicio3.dir/Ej3.cc.o
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VPhysicalVolume.hh
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VPhysicalVolume.icc
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VPhysicsConstructor.hh
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VPrimaryGenerator.hh
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VProcess.hh
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VRML2File.hh
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VSceneHandler.hh
@@ -610,10 +600,10 @@ CMakeFiles/Ejercicio3.dir/Ej3.cc.o
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VTree.hh
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VUIshell.hh
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VUPLSplitter.hh
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VUserActionInitialization.hh
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VUserDetectorConstruction.hh
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VUserEventInformation.hh
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VUserPhysicsList.hh
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VUserPrimaryGeneratorAction.hh
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VUserTrackInformation.hh
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VViewer.hh
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VViewer.icc
@@ -1980,7 +1970,7 @@ CMakeFiles/Ejercicio3.dir/src/PhysicsList.cc.o
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Element.hh
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ElementTable.hh
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ElementVector.hh
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4EmStandardPhysics.hh
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4EmStandardPhysics_option4.hh
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4EnvironmentUtils.hh
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Exception.hh
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ExceptionSeverity.hh
@@ -2040,7 +2030,6 @@ CMakeFiles/Ejercicio3.dir/src/PhysicsList.cc.o
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4SandiaTable.hh
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Step.hh
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Step.icc
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4StepLimiterPhysics.hh
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4StepPoint.hh
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4StepPoint.icc
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4StepStatus.hh
