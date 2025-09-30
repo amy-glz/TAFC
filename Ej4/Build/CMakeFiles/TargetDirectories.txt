@@ -1,0 +1,3 @@
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Build/CMakeFiles/Ejercicio4.dir
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Build/CMakeFiles/edit_cache.dir
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Build/CMakeFiles/rebuild_cache.dir

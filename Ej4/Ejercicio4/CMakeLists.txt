@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5 FATAL_ERROR)
-project(Ejercicio3)
+project(Ejercicio4)
 
 find_package(Geant4 REQUIRED ui_all vis_all)
 
@@ -11,8 +11,8 @@ include_directories(${PROJECT_SOURCE_DIR}/include
 file(GLOB sources ${PROJECT_SOURCE_DIR}/src/*.cc)
 file(GLOB headers ${PROJECT_SOURCE_DIR}/include/*.hh)
 
-add_executable(Ejercicio3 Ej3.cc ${sources} ${headers})
-target_link_libraries(Ejercicio3 ${Geant4_LIBRARIES})
+add_executable(Ejercicio4 Ej4.cc ${sources} ${headers})
+target_link_libraries(Ejercicio4 ${Geant4_LIBRARIES})
 
 # Para tener macros en el build
 # set(CMAKE_INSTALL_PREFIX init.mac)
