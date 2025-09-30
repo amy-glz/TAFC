@@ -2,7 +2,7 @@ CMakeFiles/Ejercicio4.dir/src/SteppingAction.cc.o: \
  /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/src/SteppingAction.cc \
  /usr/include/stdc-predef.h \
  /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/SteppingAction.hh \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4UserSteppingAction.hh \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ThreeVector.hh \
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/globals.hh \
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ios.hh \
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Types.hh \
@@ -235,12 +235,13 @@ CMakeFiles/Ejercicio4.dir/src/SteppingAction.cc.o: \
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../../../include/c++/14.2.0/bits/parse_numbers.h \
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../../../include/c++/14.2.0/bits/std_mutex.h \
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../../../include/c++/14.2.0/bits/unique_lock.h \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Step.hh \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/globals.hh \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ThreeVector.hh \
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Vector/ThreeVector.h \
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Vector/defs.h \
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Vector/ThreeVector.icc \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4UserSteppingAction.hh \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/globals.hh \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Step.hh \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ThreeVector.hh \
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VPhysicalVolume.hh \
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/geomdefs.hh \
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4RotationMatrix.hh \
