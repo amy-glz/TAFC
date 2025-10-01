@@ -1,12 +1,11 @@
-[ 42%] Building CXX object CMakeFiles/Ejercicio4.dir/src/SteppingAction.cc.o
-[ 42%] Building CXX object CMakeFiles/Ejercicio4.dir/src/ActionInitialization.cc.o
-[ 42%] Building CXX object CMakeFiles/Ejercicio4.dir/Ej4.cc.o
+[ 28%] Building CXX object CMakeFiles/Ejercicio4.dir/Ej4.cc.o
+[ 28%] Building CXX object CMakeFiles/Ejercicio4.dir/src/ActionInitialization.cc.o
 /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/src/ActionInitialization.cc:7:6: error: redefinition of 'void ActionInitialization::Build() const'
     7 | void ActionInitialization::Build() const
       |      ^~~~~~~~~~~~~~~~~~~~
 In file included from /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/src/ActionInitialization.cc:1:
 /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/ActionInitialization.hh:13:8: note: 'virtual void ActionInitialization::Build() const' previously defined here
-   13 |   void Build() const {
+   13 |   void Build() const {}
       |        ^~~~~
 make[2]: *** [CMakeFiles/Ejercicio4.dir/build.make:93: CMakeFiles/Ejercicio4.dir/src/ActionInitialization.cc.o] Error 1
 make[2]: *** Waiting for unfinished jobs....
