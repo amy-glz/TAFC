@@ -1,22 +1,48 @@
 [ 28%] Building CXX object CMakeFiles/Ejercicio4.dir/src/ActionInitialization.cc.o
-[ 28%] Building CXX object CMakeFiles/Ejercicio4.dir/Ej4.cc.o
+[ 42%] Building CXX object CMakeFiles/Ejercicio4.dir/Ej4.cc.o
 [ 42%] Building CXX object CMakeFiles/Ejercicio4.dir/src/SteppingAction.cc.o
 In file included from /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/ActionInitialization.hh:7,
                  from /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/src/ActionInitialization.cc:1:
 /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/StackingAction.hh: In member function 'virtual G4ClassificationOfNewTrack StackingAction::ClassifyNewTrack(const G4Track*)':
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/StackingAction.hh:23:49: error: invalid use of incomplete type 'const class G4VProcess'
-   23 |                         trk->GetCreatorProcess()->GetProcessName(): "primary";
-      |                                                 ^~
-In file included from /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/StackingAction.hh:7:
-/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Track.hh:63:7: note: forward declaration of 'class G4VProcess'
-   63 | class G4VProcess;
-      |       ^~~~~~~~~~
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/StackingAction.hh:25:19: error: invalid use of incomplete type 'class RunAction'
-   25 |         fRunAction-> RecordSecondary(name, ekin, pos, mom, proc);
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/StackingAction.hh:26:19: error: invalid use of incomplete type 'class RunAction'
+   26 |         fRunAction-> RecordSecondary(name, ekin, pos, mom, proc);
       |                   ^~
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/StackingAction.hh:9:7: note: forward declaration of 'class RunAction'
-    9 | class RunAction;
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/StackingAction.hh:10:7: note: forward declaration of 'class RunAction'
+   10 | class RunAction;
       |       ^~~~~~~~~
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/ActionInitialization.hh: In member function 'virtual void ActionInitialization::Build() const':
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/ActionInitialization.hh:14:36: error: invalid use of incomplete type 'class RunAction'
+   14 |     auto runAction = new RunAction();
+      |                                    ^
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/StackingAction.hh:10:7: note: forward declaration of 'class RunAction'
+   10 | class RunAction;
+      |       ^~~~~~~~~
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/src/ActionInitialization.cc: At global scope:
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/src/ActionInitialization.cc:7:6: error: redefinition of 'void ActionInitialization::Build() const'
+    7 | void ActionInitialization::Build() const
+      |      ^~~~~~~~~~~~~~~~~~~~
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/ActionInitialization.hh:13:8: note: 'virtual void ActionInitialization::Build() const' previously defined here
+   13 |   void Build() const {
+      |        ^~~~~
+make[2]: *** [CMakeFiles/Ejercicio4.dir/build.make:93: CMakeFiles/Ejercicio4.dir/src/ActionInitialization.cc.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+In file included from /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/ActionInitialization.hh:7,
+                 from /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/Ej4.cc:4:
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/StackingAction.hh: In member function 'virtual G4ClassificationOfNewTrack StackingAction::ClassifyNewTrack(const G4Track*)':
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/StackingAction.hh:26:19: error: invalid use of incomplete type 'class RunAction'
+   26 |         fRunAction-> RecordSecondary(name, ekin, pos, mom, proc);
+      |                   ^~
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/StackingAction.hh:10:7: note: forward declaration of 'class RunAction'
+   10 | class RunAction;
+      |       ^~~~~~~~~
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/ActionInitialization.hh: In member function 'virtual void ActionInitialization::Build() const':
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/ActionInitialization.hh:14:36: error: invalid use of incomplete type 'class RunAction'
+   14 |     auto runAction = new RunAction();
+      |                                    ^
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/StackingAction.hh:10:7: note: forward declaration of 'class RunAction'
+   10 | class RunAction;
+      |       ^~~~~~~~~
+make[2]: *** [CMakeFiles/Ejercicio4.dir/build.make:79: CMakeFiles/Ejercicio4.dir/Ej4.cc.o] Error 1
 /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/src/SteppingAction.cc: In member function 'virtual void SteppingAction::UserSteppingAction(const G4Step*)':
 /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/src/SteppingAction.cc:11:71: error: cannot convert 'const std::vector<const G4Track*>*' to 'const std::vector<G4Track*>*' in initialization
    11 |   const std::vector<G4Track*>* secs= step -> GetSecondaryInCurrentStep();
@@ -34,49 +60,6 @@ In file included from /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4
    20 |     fRunAction->RecordSecondary(name, ekin, pos, mom, proc);
       |                                                       ^~~~
       |                                                       porc
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/ActionInitialization.hh: In member function 'virtual void ActionInitialization::Build() const':
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/ActionInitialization.hh:14:36: error: invalid use of incomplete type 'class RunAction'
-   14 |     auto runAction = new RunAction();
-      |                                    ^
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/StackingAction.hh:9:7: note: forward declaration of 'class RunAction'
-    9 | class RunAction;
-      |       ^~~~~~~~~
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/src/ActionInitialization.cc: At global scope:
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/src/ActionInitialization.cc:7:6: error: redefinition of 'void ActionInitialization::Build() const'
-    7 | void ActionInitialization::Build() const
-      |      ^~~~~~~~~~~~~~~~~~~~
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/ActionInitialization.hh:13:8: note: 'virtual void ActionInitialization::Build() const' previously defined here
-   13 |   void Build() const {
-      |        ^~~~~
 make[2]: *** [CMakeFiles/Ejercicio4.dir/build.make:149: CMakeFiles/Ejercicio4.dir/src/SteppingAction.cc.o] Error 1
-make[2]: *** Waiting for unfinished jobs....
-make[2]: *** [CMakeFiles/Ejercicio4.dir/build.make:93: CMakeFiles/Ejercicio4.dir/src/ActionInitialization.cc.o] Error 1
-In file included from /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/ActionInitialization.hh:7,
-                 from /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/Ej4.cc:4:
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/StackingAction.hh: In member function 'virtual G4ClassificationOfNewTrack StackingAction::ClassifyNewTrack(const G4Track*)':
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/StackingAction.hh:23:49: error: invalid use of incomplete type 'const class G4VProcess'
-   23 |                         trk->GetCreatorProcess()->GetProcessName(): "primary";
-      |                                                 ^~
-In file included from /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VPhysicsConstructor.hh:53,
-                 from /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VModularPhysicsList.hh:44,
-                 from /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/PhysicsList.hh:4,
-                 from /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/Ej4.cc:2:
-/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4PhysicsListHelper.hh:47:7: note: forward declaration of 'class G4VProcess'
-   47 | class G4VProcess;
-      |       ^~~~~~~~~~
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/StackingAction.hh:25:19: error: invalid use of incomplete type 'class RunAction'
-   25 |         fRunAction-> RecordSecondary(name, ekin, pos, mom, proc);
-      |                   ^~
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/StackingAction.hh:9:7: note: forward declaration of 'class RunAction'
-    9 | class RunAction;
-      |       ^~~~~~~~~
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/ActionInitialization.hh: In member function 'virtual void ActionInitialization::Build() const':
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/ActionInitialization.hh:14:36: error: invalid use of incomplete type 'class RunAction'
-   14 |     auto runAction = new RunAction();
-      |                                    ^
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/StackingAction.hh:9:7: note: forward declaration of 'class RunAction'
-    9 | class RunAction;
-      |       ^~~~~~~~~
-make[2]: *** [CMakeFiles/Ejercicio4.dir/build.make:79: CMakeFiles/Ejercicio4.dir/Ej4.cc.o] Error 1
 make[1]: *** [CMakeFiles/Makefile2:87: CMakeFiles/Ejercicio4.dir/all] Error 2
 make: *** [Makefile:91: all] Error 2
