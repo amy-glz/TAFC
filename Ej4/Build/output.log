@@ -1,35 +1,94 @@
 [ 28%] Building CXX object CMakeFiles/Ejercicio4.dir/src/ActionInitialization.cc.o
-[ 28%] Building CXX object CMakeFiles/Ejercicio4.dir/Ej4.cc.o
+[ 42%] Building CXX object CMakeFiles/Ejercicio4.dir/Ej4.cc.o
 [ 42%] Building CXX object CMakeFiles/Ejercicio4.dir/src/SteppingAction.cc.o
-In file included from /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/src/SteppingAction.cc:1:
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/SteppingAction.hh:20:27: error: expected ')' before '*' token
-   20 |   SteppingAction(RunAction* run) : fRunAction(run) {}
-      |                 ~         ^
-      |                           )
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/SteppingAction.hh:25:5: error: 'RunAction' does not name a type
-   25 |     RunAction*fRunAction;
-      |     ^~~~~~~~~
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/src/SteppingAction.cc: In member function 'virtual void SteppingAction::UserSteppingAction(const G4Step*)':
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/src/SteppingAction.cc:20:5: error: 'fRunAction' was not declared in this scope
-   20 |     fRunAction->RecordSecondary(name, ekin, pos, mom, proc);
-      |     ^~~~~~~~~~
-In file included from /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/ActionInitialization.hh:7,
+In file included from /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/SteppingAction.hh:7,
+                 from /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/src/SteppingAction.cc:1:
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:15:31: error: 'Run' does not name a type; did you mean 'G4Run'?
+   15 |   void BeginOfRunAction(const Run*) override{
+      |                               ^~~
+      |                               G4Run
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:20:29: error: 'Run' does not name a type; did you mean 'G4Run'?
+   20 |   void EnfOfRunAction(const Run*) override{
+      |                             ^~~
+      |                             G4Run
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:15:8: error: 'void RunAction::BeginOfRunAction(const int*)' marked 'override', but does not override
+   15 |   void BeginOfRunAction(const Run*) override{
+      |        ^~~~~~~~~~~~~~~~
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:20:8: error: 'void RunAction::EnfOfRunAction(const int*)' marked 'override', but does not override
+   20 |   void EnfOfRunAction(const Run*) override{
+      |        ^~~~~~~~~~~~~~
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh: In member function 'void RunAction::BeginOfRunAction(const int*)':
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:16:5: error: 'fSecondaries' was not declared in this scope
+   16 |     fSecondaries.clear();
+      |     ^~~~~~~~~~~~
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh: In member function 'void RunAction::EnfOfRunAction(const int*)':
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:25:22: error: 'fSecondaries' was not declared in this scope
+   25 |     for (auto& sec : fSecondaries) {
+      |                      ^~~~~~~~~~~~
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:28:33: error: expected primary-expression before '<<' token
+   28 |               << sec.ekin/CLHEP << ","
+      |                                 ^~
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:29:37: error: 'mm' is not a member of 'CLHEP'
+   29 |               << sec.pos.x()/CLHEP::mm << ","
+      |                                     ^~
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:30:37: error: 'mm' is not a member of 'CLHEP'
+   30 |               << sec.pos.y()/CLHEP::mm << ","
+      |                                     ^~
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:31:37: error: 'mm' is not a member of 'CLHEP'
+   31 |               << sec.pos.z()/CLHEP::mm << ","
+      |                                     ^~
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh: In member function 'void RunAction::RecordSecondary(const G4String&, G4double, const G4ThreeVector&, const G4ThreeVector&, const G4String&)':
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:49:9: error: 'fSecondaries' was not declared in this scope
+   49 |         fSecondaries.push_back({name, ekin, pos, mom, proc});
+      |         ^~~~~~~~~~~~
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh: At global scope:
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:54:1: error: expected unqualified-id before 'private'
+   54 | private:
+      | ^~~~~~~
+In file included from /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/ActionInitialization.hh:6,
                  from /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/src/ActionInitialization.cc:1:
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/StackingAction.hh: In member function 'virtual G4ClassificationOfNewTrack StackingAction::ClassifyNewTrack(const G4Track*)':
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/StackingAction.hh:26:19: error: invalid use of incomplete type 'class RunAction'
-   26 |         fRunAction-> RecordSecondary(name, ekin, pos, mom, proc);
-      |                   ^~
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/StackingAction.hh:10:7: note: forward declaration of 'class RunAction'
-   10 | class RunAction;
-      |       ^~~~~~~~~
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/ActionInitialization.hh: In member function 'virtual void ActionInitialization::Build() const':
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/ActionInitialization.hh:14:36: error: invalid use of incomplete type 'class RunAction'
-   14 |     auto runAction = new RunAction();
-      |                                    ^
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/StackingAction.hh:10:7: note: forward declaration of 'class RunAction'
-   10 | class RunAction;
-      |       ^~~~~~~~~
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/src/ActionInitialization.cc: At global scope:
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:15:31: error: 'Run' does not name a type; did you mean 'G4Run'?
+   15 |   void BeginOfRunAction(const Run*) override{
+      |                               ^~~
+      |                               G4Run
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:20:29: error: 'Run' does not name a type; did you mean 'G4Run'?
+   20 |   void EnfOfRunAction(const Run*) override{
+      |                             ^~~
+      |                             G4Run
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:15:8: error: 'void RunAction::BeginOfRunAction(const int*)' marked 'override', but does not override
+   15 |   void BeginOfRunAction(const Run*) override{
+      |        ^~~~~~~~~~~~~~~~
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:20:8: error: 'void RunAction::EnfOfRunAction(const int*)' marked 'override', but does not override
+   20 |   void EnfOfRunAction(const Run*) override{
+      |        ^~~~~~~~~~~~~~
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh: In member function 'void RunAction::BeginOfRunAction(const int*)':
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:16:5: error: 'fSecondaries' was not declared in this scope
+   16 |     fSecondaries.clear();
+      |     ^~~~~~~~~~~~
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh: In member function 'void RunAction::EnfOfRunAction(const int*)':
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:25:22: error: 'fSecondaries' was not declared in this scope
+   25 |     for (auto& sec : fSecondaries) {
+      |                      ^~~~~~~~~~~~
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:28:33: error: expected primary-expression before '<<' token
+   28 |               << sec.ekin/CLHEP << ","
+      |                                 ^~
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:29:37: error: 'mm' is not a member of 'CLHEP'
+   29 |               << sec.pos.x()/CLHEP::mm << ","
+      |                                     ^~
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:30:37: error: 'mm' is not a member of 'CLHEP'
+   30 |               << sec.pos.y()/CLHEP::mm << ","
+      |                                     ^~
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:31:37: error: 'mm' is not a member of 'CLHEP'
+   31 |               << sec.pos.z()/CLHEP::mm << ","
+      |                                     ^~
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh: In member function 'void RunAction::RecordSecondary(const G4String&, G4double, const G4ThreeVector&, const G4ThreeVector&, const G4String&)':
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:49:9: error: 'fSecondaries' was not declared in this scope
+   49 |         fSecondaries.push_back({name, ekin, pos, mom, proc});
+      |         ^~~~~~~~~~~~
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh: At global scope:
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:54:1: error: expected unqualified-id before 'private'
+   54 | private:
+      | ^~~~~~~
 /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/src/ActionInitialization.cc:7:6: error: redefinition of 'void ActionInitialization::Build() const'
     7 | void ActionInitialization::Build() const
       |      ^~~~~~~~~~~~~~~~~~~~
@@ -38,23 +97,42 @@ In file included from /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4
       |        ^~~~~
 make[2]: *** [CMakeFiles/Ejercicio4.dir/build.make:149: CMakeFiles/Ejercicio4.dir/src/SteppingAction.cc.o] Error 1
 make[2]: *** Waiting for unfinished jobs....
-make[2]: *** [CMakeFiles/Ejercicio4.dir/build.make:93: CMakeFiles/Ejercicio4.dir/src/ActionInitialization.cc.o] Error 1
-In file included from /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/ActionInitialization.hh:7,
+In file included from /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/ActionInitialization.hh:6,
                  from /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/Ej4.cc:4:
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/StackingAction.hh: In member function 'virtual G4ClassificationOfNewTrack StackingAction::ClassifyNewTrack(const G4Track*)':
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/StackingAction.hh:26:19: error: invalid use of incomplete type 'class RunAction'
-   26 |         fRunAction-> RecordSecondary(name, ekin, pos, mom, proc);
-      |                   ^~
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/StackingAction.hh:10:7: note: forward declaration of 'class RunAction'
-   10 | class RunAction;
-      |       ^~~~~~~~~
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/ActionInitialization.hh: In member function 'virtual void ActionInitialization::Build() const':
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/ActionInitialization.hh:14:36: error: invalid use of incomplete type 'class RunAction'
-   14 |     auto runAction = new RunAction();
-      |                                    ^
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/StackingAction.hh:10:7: note: forward declaration of 'class RunAction'
-   10 | class RunAction;
-      |       ^~~~~~~~~
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:15:31: error: 'Run' does not name a type; did you mean 'G4Run'?
+   15 |   void BeginOfRunAction(const Run*) override{
+      |                               ^~~
+      |                               G4Run
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:20:29: error: 'Run' does not name a type; did you mean 'G4Run'?
+   20 |   void EnfOfRunAction(const Run*) override{
+      |                             ^~~
+      |                             G4Run
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:15:8: error: 'void RunAction::BeginOfRunAction(const int*)' marked 'override', but does not override
+   15 |   void BeginOfRunAction(const Run*) override{
+      |        ^~~~~~~~~~~~~~~~
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:20:8: error: 'void RunAction::EnfOfRunAction(const int*)' marked 'override', but does not override
+   20 |   void EnfOfRunAction(const Run*) override{
+      |        ^~~~~~~~~~~~~~
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh: In member function 'void RunAction::BeginOfRunAction(const int*)':
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:16:5: error: 'fSecondaries' was not declared in this scope
+   16 |     fSecondaries.clear();
+      |     ^~~~~~~~~~~~
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh: In member function 'void RunAction::EnfOfRunAction(const int*)':
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:25:22: error: 'fSecondaries' was not declared in this scope
+   25 |     for (auto& sec : fSecondaries) {
+      |                      ^~~~~~~~~~~~
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:28:33: error: expected primary-expression before '<<' token
+   28 |               << sec.ekin/CLHEP << ","
+      |                                 ^~
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh: In member function 'void RunAction::RecordSecondary(const G4String&, G4double, const G4ThreeVector&, const G4ThreeVector&, const G4String&)':
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:49:9: error: 'fSecondaries' was not declared in this scope
+   49 |         fSecondaries.push_back({name, ekin, pos, mom, proc});
+      |         ^~~~~~~~~~~~
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh: At global scope:
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:54:1: error: expected unqualified-id before 'private'
+   54 | private:
+      | ^~~~~~~
+make[2]: *** [CMakeFiles/Ejercicio4.dir/build.make:93: CMakeFiles/Ejercicio4.dir/src/ActionInitialization.cc.o] Error 1
 make[2]: *** [CMakeFiles/Ejercicio4.dir/build.make:79: CMakeFiles/Ejercicio4.dir/Ej4.cc.o] Error 1
 make[1]: *** [CMakeFiles/Makefile2:87: CMakeFiles/Ejercicio4.dir/all] Error 2
 make: *** [Makefile:91: all] Error 2
