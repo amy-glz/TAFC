@@ -14,10 +14,6 @@ In file included from /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4
 /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/SteppingAction.hh:13:7: note: forward declaration of 'class RunAction'
    13 | class RunAction;
       |       ^~~~~~~~~
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/src/SteppingAction.cc:20:55: error: 'proc' was not declared in this scope; did you mean 'porc'?
-   20 |     fRunAction->RecordSecondary(name, ekin, pos, mom, proc);
-      |                                                       ^~~~
-      |                                                       porc
 In file included from /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/ActionInitialization.hh:7,
                  from /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/src/ActionInitialization.cc:1:
 /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/StackingAction.hh: In member function 'virtual G4ClassificationOfNewTrack StackingAction::ClassifyNewTrack(const G4Track*)':
@@ -34,6 +30,9 @@ In file included from /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4
 /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/StackingAction.hh:10:7: note: forward declaration of 'class RunAction'
    10 | class RunAction;
       |       ^~~~~~~~~
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/src/SteppingAction.cc:20:55: error: 'proc' was not declared in this scope
+   20 |     fRunAction->RecordSecondary(name, ekin, pos, mom, proc);
+      |                                                       ^~~~
 /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/src/ActionInitialization.cc: At global scope:
 /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/src/ActionInitialization.cc:7:6: error: redefinition of 'void ActionInitialization::Build() const'
     7 | void ActionInitialization::Build() const
