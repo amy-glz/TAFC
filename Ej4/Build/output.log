@@ -1,24 +1,14 @@
-[ 28%] Building CXX object CMakeFiles/Ejercicio4.dir/src/ActionInitialization.cc.o
-[ 28%] Building CXX object CMakeFiles/Ejercicio4.dir/Ej4.cc.o
+[ 42%] Building CXX object CMakeFiles/Ejercicio4.dir/Ej4.cc.o
+[ 42%] Building CXX object CMakeFiles/Ejercicio4.dir/src/ActionInitialization.cc.o
 [ 42%] Building CXX object CMakeFiles/Ejercicio4.dir/src/SteppingAction.cc.o
-In file included from /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/ActionInitialization.hh:6,
-                 from /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/src/ActionInitialization.cc:1:
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:8:2: error: invalid preprocessing directive #inlcude; did you mean #include?
-    8 | #inlcude "G4SystemOfUnits.hh"
-      |  ^~~~~~~
-      |  include
 In file included from /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/SteppingAction.hh:7,
                  from /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/src/SteppingAction.cc:1:
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:8:2: error: invalid preprocessing directive #inlcude; did you mean #include?
-    8 | #inlcude "G4SystemOfUnits.hh"
-      |  ^~~~~~~
-      |  include
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh: In member function 'virtual void RunAction::BeginOfRunAction(const G4Run*)':
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:20:5: error: 'fSecondaries' was not declared in this scope
+   20 |     fSecondaries.clear();
+      |     ^~~~~~~~~~~~
 In file included from /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/ActionInitialization.hh:6,
-                 from /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/Ej4.cc:4:
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:8:2: error: invalid preprocessing directive #inlcude; did you mean #include?
-    8 | #inlcude "G4SystemOfUnits.hh"
-      |  ^~~~~~~
-      |  include
+                 from /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/src/ActionInitialization.cc:1:
 /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh: In member function 'virtual void RunAction::BeginOfRunAction(const G4Run*)':
 /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:20:5: error: 'fSecondaries' was not declared in this scope
    20 |     fSecondaries.clear();
@@ -27,18 +17,10 @@ In file included from /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4
 /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:29:22: error: 'fSecondaries' was not declared in this scope
    29 |     for (auto& sec : fSecondaries) {
       |                      ^~~~~~~~~~~~
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:32:34: error: 'MeV' is not a member of 'CLHEP'
-   32 |               << sec.ekin/CLHEP::MeV<< ","
-      |                                  ^~~
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:33:37: error: 'mm' is not a member of 'CLHEP'
-   33 |               << sec.pos.x()/CLHEP::mm << ","
-      |                                     ^~
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:34:37: error: 'mm' is not a member of 'CLHEP'
-   34 |               << sec.pos.y()/CLHEP::mm << ","
-      |                                     ^~
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:35:37: error: 'mm' is not a member of 'CLHEP'
-   35 |               << sec.pos.z()/CLHEP::mm << ","
-      |                                     ^~
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh: In member function 'virtual void RunAction::EndOfRunAction(const G4Run*)':
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:29:22: error: 'fSecondaries' was not declared in this scope
+   29 |     for (auto& sec : fSecondaries) {
+      |                      ^~~~~~~~~~~~
 /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh: In member function 'void RunAction::RecordSecondary(const G4String&, G4double, const G4ThreeVector&, const G4ThreeVector&, const G4String&)':
 /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:53:9: error: 'fSecondaries' was not declared in this scope
    53 |         fSecondaries.push_back({name, ekin, pos, mom, proc});
@@ -47,26 +29,6 @@ In file included from /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4
 /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:58:1: error: expected unqualified-id before 'private'
    58 | private:
       | ^~~~~~~
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh: In member function 'virtual void RunAction::BeginOfRunAction(const G4Run*)':
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:20:5: error: 'fSecondaries' was not declared in this scope
-   20 |     fSecondaries.clear();
-      |     ^~~~~~~~~~~~
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh: In member function 'virtual void RunAction::EndOfRunAction(const G4Run*)':
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:29:22: error: 'fSecondaries' was not declared in this scope
-   29 |     for (auto& sec : fSecondaries) {
-      |                      ^~~~~~~~~~~~
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:32:34: error: 'MeV' is not a member of 'CLHEP'
-   32 |               << sec.ekin/CLHEP::MeV<< ","
-      |                                  ^~~
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:33:37: error: 'mm' is not a member of 'CLHEP'
-   33 |               << sec.pos.x()/CLHEP::mm << ","
-      |                                     ^~
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:34:37: error: 'mm' is not a member of 'CLHEP'
-   34 |               << sec.pos.y()/CLHEP::mm << ","
-      |                                     ^~
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:35:37: error: 'mm' is not a member of 'CLHEP'
-   35 |               << sec.pos.z()/CLHEP::mm << ","
-      |                                     ^~
 /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh: In member function 'void RunAction::RecordSecondary(const G4String&, G4double, const G4ThreeVector&, const G4ThreeVector&, const G4String&)':
 /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:53:9: error: 'fSecondaries' was not declared in this scope
    53 |         fSecondaries.push_back({name, ekin, pos, mom, proc});
@@ -81,8 +43,8 @@ In file included from /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4
 /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/ActionInitialization.hh:13:8: note: 'virtual void ActionInitialization::Build() const' previously defined here
    13 |   void Build() const {
       |        ^~~~~
-make[2]: *** [CMakeFiles/Ejercicio4.dir/build.make:149: CMakeFiles/Ejercicio4.dir/src/SteppingAction.cc.o] Error 1
-make[2]: *** Waiting for unfinished jobs....
+In file included from /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/ActionInitialization.hh:6,
+                 from /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/Ej4.cc:4:
 /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh: In member function 'virtual void RunAction::BeginOfRunAction(const G4Run*)':
 /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:20:5: error: 'fSecondaries' was not declared in this scope
    20 |     fSecondaries.clear();
@@ -99,6 +61,8 @@ make[2]: *** Waiting for unfinished jobs....
 /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:58:1: error: expected unqualified-id before 'private'
    58 | private:
       | ^~~~~~~
+make[2]: *** [CMakeFiles/Ejercicio4.dir/build.make:149: CMakeFiles/Ejercicio4.dir/src/SteppingAction.cc.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
 make[2]: *** [CMakeFiles/Ejercicio4.dir/build.make:93: CMakeFiles/Ejercicio4.dir/src/ActionInitialization.cc.o] Error 1
 make[2]: *** [CMakeFiles/Ejercicio4.dir/build.make:79: CMakeFiles/Ejercicio4.dir/Ej4.cc.o] Error 1
 make[1]: *** [CMakeFiles/Makefile2:87: CMakeFiles/Ejercicio4.dir/all] Error 2
