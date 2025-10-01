@@ -6,6 +6,7 @@ CMakeFiles/Ejercicio4.dir/Ej4.cc.o: /lustre/home/agonzalez/SimGeant4/ejercicios/
   /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/DetectorConstruction.hh \
   /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/PhysicsList.hh \
   /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh \
+  /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/SecondaryInfo.hh \
   /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/StackingAction.hh \
   /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/SteppingAction.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/algorithm \
@@ -480,6 +481,7 @@ CMakeFiles/Ejercicio4.dir/Ej4.cc.o: /lustre/home/agonzalez/SimGeant4/ejercicios/
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ReplicaNavigation.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ReplicaNavigation.icc \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4RotationMatrix.hh \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Run.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4RunManager.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4RunManagerKernel.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4SandiaTable.hh \
@@ -513,6 +515,7 @@ CMakeFiles/Ejercicio4.dir/Ej4.cc.o: /lustre/home/agonzalez/SimGeant4/ejercicios/
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4SubEvent.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4SubEventTrackStack.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4SurfBits.hh \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4SystemOfUnits.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4THitsCollection.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4THitsMap.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4TessellatedSolid.hh \
@@ -559,6 +562,7 @@ CMakeFiles/Ejercicio4.dir/Ej4.cc.o: /lustre/home/agonzalez/SimGeant4/ejercicios/
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4UImessenger.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4UIparameter.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4UIsession.hh \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4UserRunAction.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4UserStackingAction.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4UserSteppingAction.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4UserTrackingAction.hh \
@@ -788,9 +792,11 @@ CMakeFiles/Ejercicio4.dir/src/ActionInitialization.cc.o: /lustre/home/agonzalez/
   /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/ActionInitialization.hh \
   /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/PrimaryGeneratorAction.hh \
   /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh \
+  /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/SecondaryInfo.hh \
   /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/StackingAction.hh \
   /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/SteppingAction.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/algorithm \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/array \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/atomic \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/backward/auto_ptr.h \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/backward/binders.h \
@@ -897,6 +903,7 @@ CMakeFiles/Ejercicio4.dir/src/ActionInitialization.cc.o: /lustre/home/agonzalez/
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/climits \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/clocale \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/cmath \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/compare \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/complex \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/concepts \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/condition_variable \
@@ -991,9 +998,70 @@ CMakeFiles/Ejercicio4.dir/src/ActionInitialization.cc.o: /lustre/home/agonzalez/
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Geometry/Transform3D.icc \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Geometry/Vector3D.h \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Geometry/defs.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/DRand48Engine.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/DualRand.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/Hurd160Engine.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/Hurd288Engine.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/JamesRandom.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/MTwistEngine.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/MixMaxRng.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandBinomial.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandBinomial.icc \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandBit.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandBit.icc \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandBreitWigner.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandBreitWigner.icc \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandChiSquare.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandChiSquare.icc \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandEngine.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandExpZiggurat.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandExponential.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandExponential.icc \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandFlat.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandFlat.icc \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandGamma.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandGamma.icc \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandGauss.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandGauss.icc \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandGaussQ.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandGaussQ.icc \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandGaussT.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandGaussT.icc \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandGaussZiggurat.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandGeneral.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandGeneral.icc \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandLandau.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandLandau.icc \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandPoisson.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandPoisson.icc \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandPoissonQ.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandPoissonQ.icc \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandPoissonT.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandPoissonT.icc \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandSkewNormal.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandSkewNormal.icc \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandStudentT.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandStudentT.icc \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/Random.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/Random.icc \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandomEngine.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandomEngine.icc \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/Randomize.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RanecuEngine.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/Ranlux64Engine.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RanluxEngine.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RanluxppEngine.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RanshiEngine.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/Stat.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/TripleRand.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/defs.h \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Units/PhysicalConstants.h \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Units/SystemOfUnits.h \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Units/defs.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Utility/defs.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Utility/memory.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Utility/noncopyable.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Utility/thread_local.h \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Vector/AxisAngle.h \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Vector/AxisAngle.icc \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Vector/LorentzVector.h \
@@ -1024,21 +1092,43 @@ CMakeFiles/Ejercicio4.dir/src/ActionInitialization.cc.o: /lustre/home/agonzalez/
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4BlockingList.icc \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Cache.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4CacheDetails.hh \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ClassificationOfNewTrack.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4DCofThisEvent.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4DataInterpolation.hh \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4DataVector.hh \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4DataVector.icc \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4DensityEffectCalculator.hh \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4DynamicParticle.hh \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4DynamicParticle.icc \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ElectronOccupancy.hh \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Element.hh \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ElementTable.hh \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ElementVector.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4EnvironmentUtils.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Event.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Exception.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ExceptionSeverity.hh \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ForceCondition.hh \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4GPILSelection.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4GeneralParticleSource.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4GeneralParticleSourceData.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4GeneralParticleSourceMessenger.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4GeomSplitter.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4GlobalConfig.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4HCofThisEvent.hh \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4IonisParamElm.hh \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4IonisParamMat.hh \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Isotope.hh \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4IsotopeVector.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Log.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4LogicalVolume.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4LogicalVolume.icc \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4LorentzVector.hh \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Material.hh \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4MaterialPropertiesIndex.hh \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4MaterialPropertiesTable.hh \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4MaterialPropertyVector.hh \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4MaterialTable.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4NavigationHistory.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4NavigationHistory.icc \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4NavigationHistoryPool.hh \
@@ -1051,18 +1141,25 @@ CMakeFiles/Ejercicio4.dir/src/ActionInitialization.cc.o: /lustre/home/agonzalez/
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Navigator.icc \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4NormalNavigation.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4NormalNavigation.icc \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4OrderedTable.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4PDefManager.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ParameterisedNavigation.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ParameterisedNavigation.icc \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ParticleChange.hh \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ParticleChange.icc \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ParticleDefinition.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ParticleDefinition.icc \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ParticleMomentum.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4PhysicsFreeVector.hh \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4PhysicsModelCatalog.hh \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4PhysicsTable.hh \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4PhysicsTable.icc \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4PhysicsVector.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4PhysicsVector.icc \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4PhysicsVectorType.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4PrimaryParticle.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4PrimaryVertex.hh \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ProcessType.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ReferenceCountedHandle.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Region.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Region.icc \
@@ -1070,10 +1167,12 @@ CMakeFiles/Ejercicio4.dir/src/ActionInitialization.cc.o: /lustre/home/agonzalez/
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ReplicaNavigation.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ReplicaNavigation.icc \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4RotationMatrix.hh \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Run.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4SPSAngDistribution.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4SPSEneDistribution.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4SPSPosDistribution.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4SPSRandomGenerator.hh \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4SandiaTable.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4SingleParticleSource.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4SmartVoxelHeader.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4SmartVoxelHeader.icc \
@@ -1081,13 +1180,24 @@ CMakeFiles/Ejercicio4.dir/src/ActionInitialization.cc.o: /lustre/home/agonzalez/
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4SmartVoxelNode.icc \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4SmartVoxelProxy.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4SmartVoxelProxy.icc \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Step.hh \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Step.icc \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4StepPoint.hh \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4StepPoint.icc \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4StepStatus.hh \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4SteppingControl.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4String.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4String.icc \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4SystemOfUnits.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Threading.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ThreeVector.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4TouchableHandle.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4TouchableHistory.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4TouchableHistory.icc \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Track.hh \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Track.icc \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4TrackStatus.hh \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4TrackVector.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4TrajectoryContainer.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Transform3D.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Types.hh \
@@ -1095,15 +1205,20 @@ CMakeFiles/Ejercicio4.dir/src/ActionInitialization.cc.o: /lustre/home/agonzalez/
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4UIdirectory.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4UImessenger.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4UIparameter.hh \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4UserRunAction.hh \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4UserStackingAction.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4UserSteppingAction.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VDigiCollection.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VExternalNavigation.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VHitsCollection.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VNavigation.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VPVParameterisation.hh \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VParticleChange.hh \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VParticleChange.icc \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VPhysicalVolume.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VPhysicalVolume.icc \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VPrimaryGenerator.hh \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VProcess.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VSolid.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VSolid.icc \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VTouchable.hh \
@@ -1111,10 +1226,12 @@ CMakeFiles/Ejercicio4.dir/src/ActionInitialization.cc.o: /lustre/home/agonzalez/
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VUserActionInitialization.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VUserEventInformation.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VUserTrackInformation.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VVolumeMaterialScanner.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VoxelNavigation.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VoxelNavigation.icc \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ios.hh \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/Randomize.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/evtdefs.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/geomdefs.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/geomwdefs.hh \
@@ -1122,6 +1239,7 @@ CMakeFiles/Ejercicio4.dir/src/ActionInitialization.cc.o: /lustre/home/agonzalez/
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/pwdefs.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/templates.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/tls.hh \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/trkdefs.hh \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -2719,8 +2837,11 @@ CMakeFiles/Ejercicio4.dir/src/PrimaryGeneratorAction.cc.o: /lustre/home/agonzale
   /usr/include/wctype.h
 
 CMakeFiles/Ejercicio4.dir/src/SteppingAction.cc.o: /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/src/SteppingAction.cc \
+  /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh \
+  /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/SecondaryInfo.hh \
   /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/SteppingAction.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/algorithm \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/array \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/atomic \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/backward/auto_ptr.h \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/backward/binders.h \
@@ -2825,6 +2946,7 @@ CMakeFiles/Ejercicio4.dir/src/SteppingAction.cc.o: /lustre/home/agonzalez/SimGea
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/climits \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/clocale \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/cmath \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/compare \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/complex \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/concepts \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/condition_variable \
@@ -2918,9 +3040,70 @@ CMakeFiles/Ejercicio4.dir/src/SteppingAction.cc.o: /lustre/home/agonzalez/SimGea
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Geometry/Transform3D.icc \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Geometry/Vector3D.h \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Geometry/defs.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/DRand48Engine.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/DualRand.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/Hurd160Engine.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/Hurd288Engine.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/JamesRandom.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/MTwistEngine.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/MixMaxRng.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandBinomial.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandBinomial.icc \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandBit.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandBit.icc \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandBreitWigner.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandBreitWigner.icc \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandChiSquare.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandChiSquare.icc \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandEngine.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandExpZiggurat.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandExponential.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandExponential.icc \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandFlat.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandFlat.icc \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandGamma.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandGamma.icc \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandGauss.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandGauss.icc \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandGaussQ.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandGaussQ.icc \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandGaussT.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandGaussT.icc \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandGaussZiggurat.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandGeneral.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandGeneral.icc \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandLandau.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandLandau.icc \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandPoisson.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandPoisson.icc \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandPoissonQ.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandPoissonQ.icc \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandPoissonT.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandPoissonT.icc \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandSkewNormal.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandSkewNormal.icc \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandStudentT.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandStudentT.icc \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/Random.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/Random.icc \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandomEngine.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandomEngine.icc \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/Randomize.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RanecuEngine.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/Ranlux64Engine.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RanluxEngine.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RanluxppEngine.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RanshiEngine.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/Stat.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/TripleRand.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/defs.h \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Units/PhysicalConstants.h \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Units/SystemOfUnits.h \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Units/defs.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Utility/defs.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Utility/memory.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Utility/noncopyable.h \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Utility/thread_local.h \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Vector/AxisAngle.h \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Vector/AxisAngle.icc \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Vector/LorentzVector.h \
@@ -2956,6 +3139,8 @@ CMakeFiles/Ejercicio4.dir/src/SteppingAction.cc.o: /lustre/home/agonzalez/SimGea
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4EnvironmentUtils.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Exception.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ExceptionSeverity.hh \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ForceCondition.hh \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4GPILSelection.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4GeomSplitter.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4GlobalConfig.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4IonisParamElm.hh \
@@ -2980,18 +3165,24 @@ CMakeFiles/Ejercicio4.dir/src/SteppingAction.cc.o: /lustre/home/agonzalez/SimGea
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4NavigationLevelRep.icc \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4OrderedTable.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4PDefManager.hh \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ParticleChange.hh \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ParticleChange.icc \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ParticleDefinition.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ParticleDefinition.icc \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ParticleMomentum.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4PhysicsFreeVector.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4PhysicsModelCatalog.hh \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4PhysicsTable.hh \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4PhysicsTable.icc \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4PhysicsVector.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4PhysicsVector.icc \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4PhysicsVectorType.hh \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ProcessType.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ReferenceCountedHandle.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Region.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Region.icc \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4RotationMatrix.hh \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Run.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4SandiaTable.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Step.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Step.icc \
@@ -3001,6 +3192,7 @@ CMakeFiles/Ejercicio4.dir/src/SteppingAction.cc.o: /lustre/home/agonzalez/SimGea
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4SteppingControl.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4String.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4String.icc \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4SystemOfUnits.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Threading.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ThreeVector.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4TouchableHandle.hh \
@@ -3012,12 +3204,17 @@ CMakeFiles/Ejercicio4.dir/src/SteppingAction.cc.o: /lustre/home/agonzalez/SimGea
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4TrackVector.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Transform3D.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Types.hh \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4UserRunAction.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4UserSteppingAction.hh \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VParticleChange.hh \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VParticleChange.icc \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VPhysicalVolume.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VPhysicalVolume.icc \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VProcess.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VTouchable.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VUserTrackInformation.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ios.hh \
+  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/Randomize.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/geomdefs.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/geomwdefs.hh \
   /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/globals.hh \
@@ -3241,8 +3438,6 @@ Ejercicio4: /apps/miniconda3/lib/libzstd.so.1 \
 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Decay.hh:
 
 /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/src/PhysicsList.cc:
-
-/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4SystemOfUnits.hh:
 
 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4NistMaterialBuilder.hh:
 
@@ -3556,6 +3751,8 @@ Ejercicio4: /apps/miniconda3/lib/libzstd.so.1 \
 
 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4UserStackingAction.hh:
 
+/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4UserRunAction.hh:
+
 /usr/include/bits/wctype-wchar.h:
 
 /usr/include/bits/stdint-intn.h:
@@ -3596,7 +3793,7 @@ Ejercicio4: /apps/miniconda3/lib/libzstd.so.1 \
 
 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Trd.hh:
 
-/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandBit.icc:
+/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Transform3D.hh:
 
 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Geometry/Transform3D.icc:
 
@@ -3642,9 +3839,9 @@ Ejercicio4: /apps/miniconda3/lib/libzstd.so.1 \
 
 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/x86_64-pc-linux-gnu/bits/atomic_word.h:
 
-/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/bits/hash_bytes.h:
-
 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/bits/std_mutex.h:
+
+/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/bits/hash_bytes.h:
 
 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/MTwistEngine.h:
 
@@ -3711,6 +3908,10 @@ Ejercicio4: /apps/miniconda3/lib/libzstd.so.1 \
 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/stack:
 
 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/ostream:
+
+/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4TrajectoryModelFactories.hh:
+
+/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/bits/nested_exception.h:
 
 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/freetype-2.13.2-3zgahrkj6zqlmgn3mpq4mdae2p2shvju/lib/libfreetype.so.6:
 
@@ -3790,6 +3991,8 @@ Ejercicio4: /apps/miniconda3/lib/libzstd.so.1 \
 
 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/ext/alloc_traits.h:
 
+/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4SystemOfUnits.hh:
+
 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/list:
 
 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/atomic:
@@ -3836,7 +4039,21 @@ Ejercicio4: /apps/miniconda3/lib/libzstd.so.1 \
 
 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/bits/utility.h:
 
-/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/bits/memoryfwd.h:
+/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/tr1/gamma.tcc:
+
+/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4EmStandardPhysics_option4.hh:
+
+/usr/include/bits/wchar.h:
+
+/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/globals.hh:
+
+/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/set:
+
+/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/bits/range_access.h:
+
+/usr/include/bits/sigevent-consts.h:
+
+/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/bits/uses_allocator.h:
 
 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/string:
 
@@ -3857,44 +4074,6 @@ Ejercicio4: /apps/miniconda3/lib/libzstd.so.1 \
 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/bits/refwrap.h:
 
 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4SubEvent.hh:
-
-/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/bits/locale_facets.h:
-
-/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandBreitWigner.h:
-
-/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/bits/char_traits.h:
-
-/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4NavigationLogger.hh:
-
-/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/bits/istream.tcc:
-
-/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/bits/stl_tree.h:
-
-/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ParameterisedNavigation.icc:
-
-/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/bits/regex.tcc:
-
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/PhysicsList.hh:
-
-/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VSteppingVerbose.hh:
-
-/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/bits/codecvt.h:
-
-/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/tr1/hypergeometric.tcc:
-
-/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/Random.icc:
-
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/src/DetectorConstruction.cc:
-
-/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/concepts:
-
-/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/bits/stl_vector.h:
-
-/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ModelingParameters.hh:
-
-/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4OpenGLStoredQt.hh:
-
-/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4TouchableHistory.hh:
 
 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Vector/RotationZ.h:
 
@@ -3922,11 +4101,23 @@ Ejercicio4: /apps/miniconda3/lib/libzstd.so.1 \
 
 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Units/SystemOfUnits.h:
 
+/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/bits/istream.tcc:
+
+/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/bits/stl_tree.h:
+
+/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/bits/locale_facets.h:
+
+/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandBreitWigner.h:
+
+/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/bits/char_traits.h:
+
+/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4NavigationLogger.hh:
+
+/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ParameterisedNavigation.icc:
+
+/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/bits/regex.tcc:
+
 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/bits/cxxabi_init_exception.h:
-
-/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/bits/regex_compiler.h:
-
-/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4GeomTypes.hh:
 
 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/tr1/legendre_function.tcc:
 
@@ -3936,13 +4127,11 @@ Ejercicio4: /apps/miniconda3/lib/libzstd.so.1 \
 
 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/bits/unordered_map.h:
 
-/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/csignal:
+/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VSteppingVerbose.hh:
 
-/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VSolid.hh:
+/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/bits/codecvt.h:
 
-/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/bits/stl_bvector.h:
-
-/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/bits/stringfwd.h:
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/PhysicsList.hh:
 
 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VUPLSplitter.hh:
 
@@ -3958,15 +4147,63 @@ Ejercicio4: /apps/miniconda3/lib/libzstd.so.1 \
 
 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4EnvironmentUtils.hh:
 
-/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/bits/range_access.h:
+/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/csignal:
 
-/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4EmStandardPhysics_option4.hh:
+/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VSolid.hh:
 
-/usr/include/bits/wchar.h:
+/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/bits/stl_bvector.h:
 
-/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/globals.hh:
+/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/bits/stringfwd.h:
 
-/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/set:
+/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/tr1/hypergeometric.tcc:
+
+/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/Random.icc:
+
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/src/DetectorConstruction.cc:
+
+/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/concepts:
+
+/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/bits/stl_vector.h:
+
+/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ModelingParameters.hh:
+
+/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4OpenGLStoredQt.hh:
+
+/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4TouchableHistory.hh:
+
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/SecondaryInfo.hh:
+
+/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Cons.hh:
+
+/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/Hurd160Engine.h:
+
+/usr/include/sched.h:
+
+/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/bits/cxxabi_forced.h:
+
+/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/x86_64-pc-linux-gnu/bits/time_members.h:
+
+/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Allocator.hh:
+
+/usr/include/bits/types/struct___jmp_buf_tag.h:
+
+/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VisExtent.hh:
+
+/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/bits/alloc_traits.h:
+
+/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/bits/erase_if.h:
+
+/usr/include/bits/long-double.h:
+
+/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/bits/exception_defines.h:
+
+/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/Ranlux64Engine.h:
+
+/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Geometry/Normal3D.h:
+
+/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VisExecutive.hh:
+
+/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/bits/stl_set.h:
 
 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/backward/binders.h:
 
@@ -4006,6 +4243,10 @@ Ejercicio4: /apps/miniconda3/lib/libzstd.so.1 \
 
 /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:
 
+/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/bits/cpp_type_traits.h:
+
+/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/x86_64-pc-linux-gnu/bits/cxxabi_tweaks.h:
+
 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/bits/unique_lock.h:
 
 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Vector/LorentzVector.h:
@@ -4026,8 +4267,6 @@ Ejercicio4: /apps/miniconda3/lib/libzstd.so.1 \
 
 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Box.hh:
 
-/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Transform3D.hh:
-
 /usr/include/bits/types/struct_timeval.h:
 
 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VModularPhysicsList.hh:
@@ -4036,45 +4275,17 @@ Ejercicio4: /apps/miniconda3/lib/libzstd.so.1 \
 
 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/bits/locale_facets_nonio.h:
 
-/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/Hurd160Engine.h:
-
-/usr/include/sched.h:
-
-/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/bits/cxxabi_forced.h:
-
-/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/x86_64-pc-linux-gnu/bits/time_members.h:
-
-/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Allocator.hh:
-
-/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/x86_64-pc-linux-gnu/bits/cxxabi_tweaks.h:
-
-/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/bits/cpp_type_traits.h:
-
-/usr/include/bits/types/struct___jmp_buf_tag.h:
-
-/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VisExtent.hh:
-
-/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/bits/alloc_traits.h:
-
-/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/bits/erase_if.h:
-
-/usr/include/bits/long-double.h:
-
-/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/bits/exception_defines.h:
-
-/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/Ranlux64Engine.h:
-
-/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Geometry/Normal3D.h:
-
-/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VisExecutive.hh:
-
-/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/bits/stl_set.h:
-
 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/tr1/modified_bessel_func.tcc:
 
 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/streambuf:
 
 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/bits/std_abs.h:
+
+/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/tr1/special_function_util.h:
+
+/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ModelingParameters.icc:
+
+/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/bits/stl_map.h:
 
 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4NistManager.hh:
 
@@ -4087,18 +4298,6 @@ Ejercicio4: /apps/miniconda3/lib/libzstd.so.1 \
 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandGamma.h:
 
 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Utility/memory.h:
-
-/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/tr1/gamma.tcc:
-
-/usr/include/bits/sigevent-consts.h:
-
-/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/bits/uses_allocator.h:
-
-/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/tr1/special_function_util.h:
-
-/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/bits/stl_map.h:
-
-/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ModelingParameters.icc:
 
 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/bits/basic_ios.tcc:
 
@@ -4113,6 +4312,12 @@ Ejercicio4: /apps/miniconda3/lib/libzstd.so.1 \
 /usr/include/linux/errno.h:
 
 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/mutex:
+
+/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/bits/memoryfwd.h:
+
+/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/bits/regex_compiler.h:
+
+/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4GeomTypes.hh:
 
 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/bits/move.h:
 
@@ -4358,6 +4563,8 @@ Ejercicio4: /apps/miniconda3/lib/libzstd.so.1 \
 
 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/bits/unique_ptr.h:
 
+/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandBit.icc:
+
 /usr/include/bits/types/sig_atomic_t.h:
 
 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ViewerList.hh:
@@ -4510,10 +4717,6 @@ Ejercicio4: /apps/miniconda3/lib/libzstd.so.1 \
 
 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4AffineTransform.icc:
 
-/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/bits/nested_exception.h:
-
-/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4TrajectoryModelFactories.hh:
-
 /lib64/libc.so:
 
 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/deque:
@@ -4551,8 +4754,6 @@ Ejercicio4: /apps/miniconda3/lib/libzstd.so.1 \
 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/RandGaussT.h:
 
 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4NavigationHistory.hh:
-
-/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Cons.hh:
 
 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/include/c++/14.2.0/memory:
 
@@ -4829,6 +5030,8 @@ Ejercicio4: /apps/miniconda3/lib/libzstd.so.1 \
 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4PolyhedraHistorical.hh:
 
 /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ReplicaNavigation.icc:
+
+/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Run.hh:
 
 /usr/include/features.h:
 

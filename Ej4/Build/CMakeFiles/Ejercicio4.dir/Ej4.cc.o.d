@@ -350,39 +350,24 @@ CMakeFiles/Ejercicio4.dir/Ej4.cc.o: \
  /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/ActionInitialization.hh \
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VUserActionInitialization.hh \
  /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh \
- /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/StackingAction.hh \
- /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/SteppingAction.hh \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4UserRunAction.hh \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Run.hh \
+ /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/SecondaryInfo.hh \
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ThreeVector.hh \
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Vector/ThreeVector.h \
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Vector/defs.h \
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Vector/ThreeVector.icc \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4UserSteppingAction.hh \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4RunManager.hh \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Event.hh \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/evtdefs.hh \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Allocator.hh \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4AllocatorPool.hh \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4PrimaryVertex.hh \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4PrimaryParticle.hh \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ThreeVector.hh \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4HCofThisEvent.hh \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VHitsCollection.hh \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4DCofThisEvent.hh \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VDigiCollection.hh \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4TrajectoryContainer.hh \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VTrajectory.hh \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VUserEventInformation.hh \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4EventManager.hh \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4StackManager.hh \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4SystemOfUnits.hh \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../../../include/c++/14.2.0/fstream \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../../../include/c++/14.2.0/x86_64-pc-linux-gnu/bits/basic_file.h \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../../../include/c++/14.2.0/x86_64-pc-linux-gnu/bits/c++io.h \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../../../include/c++/14.2.0/bits/fstream.tcc \
+ /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/StackingAction.hh \
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4UserStackingAction.hh \
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ClassificationOfNewTrack.hh \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4StackedTrack.hh \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4TrackStack.hh \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4SmartTrackStack.hh \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4SubEventTrackStack.hh \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4SubEvent.hh \
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Track.hh \
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/trkdefs.hh \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ThreeVector.hh \
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4LogicalVolume.hh \
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../../../include/c++/14.2.0/memory \
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../../../include/c++/14.2.0/bits/stl_raw_storage_iter.h \
@@ -410,6 +395,8 @@ CMakeFiles/Ejercicio4.dir/Ej4.cc.o: \
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Vector/Rotation.icc \
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VPhysicalVolume.icc \
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4LogicalVolume.icc \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Allocator.hh \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4AllocatorPool.hh \
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4DynamicParticle.hh \
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ElectronOccupancy.hh \
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Log.hh \
@@ -455,10 +442,6 @@ CMakeFiles/Ejercicio4.dir/Ej4.cc.o: \
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4MaterialPropertyVector.hh \
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4PhysicsFreeVector.hh \
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4PhysicsVector.hh \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../../../include/c++/14.2.0/fstream \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../../../include/c++/14.2.0/x86_64-pc-linux-gnu/bits/basic_file.h \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../../../include/c++/14.2.0/x86_64-pc-linux-gnu/bits/c++io.h \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-11.4.1/gcc-14.2.0-hyrafnszq6htvex7ham2k4v2ug57brjt/lib/gcc/x86_64-pc-linux-gnu/14.2.0/../../../../include/c++/14.2.0/bits/fstream.tcc \
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4PhysicsVectorType.hh \
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4PhysicsVector.icc \
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4MaterialTable.hh \
@@ -474,38 +457,7 @@ CMakeFiles/Ejercicio4.dir/Ej4.cc.o: \
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4StepPoint.icc \
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4TrackVector.hh \
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Step.icc \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4PrimaryTransformer.hh \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4TrackingManager.hh \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4SteppingManager.hh \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Navigator.hh \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4NormalNavigation.hh \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VNavigation.hh \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VSolid.hh \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VSolid.icc \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4AuxiliaryNavServices.hh \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4AuxiliaryNavServices.icc \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4NormalNavigation.icc \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VoxelNavigation.hh \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4NavigationLogger.hh \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4BlockingList.hh \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4BlockingList.icc \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4SmartVoxelProxy.hh \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4SmartVoxelProxy.icc \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4SmartVoxelNode.hh \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4SmartVoxelNode.icc \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4SmartVoxelHeader.hh \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4SmartVoxelHeader.icc \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VoxelNavigation.icc \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ParameterisedNavigation.hh \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VPVParameterisation.hh \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VVolumeMaterialScanner.hh \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ParameterisedNavigation.icc \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ReplicaNavigation.hh \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ReplicaNavigation.icc \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4RegularNavigation.hh \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VExternalNavigation.hh \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Navigator.icc \
- /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4NoProcess.hh \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Track.hh \
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VProcess.hh \
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/Randomize.hh \
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/clhep-2.4.7.1-lj6gjay6pd3ug36hsfqis764udpyqof3/include/CLHEP/Random/Randomize.h \
@@ -578,6 +530,61 @@ CMakeFiles/Ejercicio4.dir/Ej4.cc.o: \
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ParticleChange.hh \
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ParticleChange.icc \
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ProcessType.hh \
+ /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/SteppingAction.hh \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4UserSteppingAction.hh \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4RunManager.hh \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Event.hh \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/evtdefs.hh \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4PrimaryVertex.hh \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4PrimaryParticle.hh \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4HCofThisEvent.hh \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VHitsCollection.hh \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4DCofThisEvent.hh \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VDigiCollection.hh \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4TrajectoryContainer.hh \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VTrajectory.hh \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VUserEventInformation.hh \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4EventManager.hh \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4StackManager.hh \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4UserStackingAction.hh \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4StackedTrack.hh \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4TrackStack.hh \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4SmartTrackStack.hh \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4SubEventTrackStack.hh \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4SubEvent.hh \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4PrimaryTransformer.hh \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4TrackingManager.hh \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4SteppingManager.hh \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Navigator.hh \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4NormalNavigation.hh \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VNavigation.hh \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VSolid.hh \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VSolid.icc \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4AuxiliaryNavServices.hh \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4AuxiliaryNavServices.icc \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4NormalNavigation.icc \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VoxelNavigation.hh \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4NavigationLogger.hh \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4BlockingList.hh \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4BlockingList.icc \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4SmartVoxelProxy.hh \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4SmartVoxelProxy.icc \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4SmartVoxelNode.hh \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4SmartVoxelNode.icc \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4SmartVoxelHeader.hh \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4SmartVoxelHeader.icc \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VoxelNavigation.icc \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ParameterisedNavigation.hh \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VPVParameterisation.hh \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VVolumeMaterialScanner.hh \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ParameterisedNavigation.icc \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ReplicaNavigation.hh \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ReplicaNavigation.icc \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4RegularNavigation.hh \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VExternalNavigation.hh \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Navigator.icc \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4NoProcess.hh \
+ /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4VProcess.hh \
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ProcessManager.hh \
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ProcessVector.hh \
  /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4ProcessVector.icc \
