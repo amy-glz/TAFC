@@ -1,21 +1,27 @@
-#ifdef StackingAction_h
+#ifndef StackingAction_h
 #define StackingAction_h 1
 
 #include "G4UserStackingAction.hh"
 #include "RunAction.hh"
+#include "G4ThreeVector.hh"
+#include "G4Track.hh"
+#include "G4VProcess.hh"
+
+class RunAction;
+class G4Track;
 
 class StackingAction : public G4UserStackingAction{
 public:
-  StackingAction(G4Run* Run): fRunAction(Run){}
+  StackingAction(RunAction* Run): fRunAction(Run){}
 
-  G4ClassificationOfNewTrack ClassifyNewTrack(const Track* trk) override {
-    if trk -> (GetParentID()>0){
-	auto name = trk->GetDefinition()->GetParticleName();
-	auto ekin = trk->GetKineticEnery();
-	auto pos  = trk->GetPosition();
-	auto mom  = trk->GetMomentumDirection();
-	auto proc = trk->GetCreatorProcess() ?
-	            trk->GetCreatorProcess()->GetProcessName(): "primary";
+  G4ClassificationOfNewTrack ClassifyNewTrack(const G4Track* trk) override {
+    if (trk -> GetParentID()>0){
+	G4String name = trk->GetDefinition()->GetParticleName();
+        G4double ekin = trk->GetKineticEnergy();
+	G4ThreeVector pos  = trk->GetPosition();
+	G4ThreeVector mom  = trk->GetMomentumDirection();
+	G4String proc = trk->GetCreatorProcess() ?
+	                trk->GetCreatorProcess()->GetProcessName(): "primary";
 
 	fRunAction-> RecordSecondary(name, ekin, pos, mom, proc);
 	

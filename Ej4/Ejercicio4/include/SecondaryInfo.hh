@@ -9,7 +9,7 @@ struct SecondaryInfo{
   G4double ekin;
   G4ThreeVector pos;
   G4ThreeVector mom;
-  G4String process;  
+  G4String proc;  
 };
 
 #endif

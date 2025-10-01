@@ -83,8 +83,8 @@ G4VPhysicalVolume*DetectorConstruction::Construct(){
 
   
   return WorldPhys;
-}
+};
 
-DetectorConstruction::DetectorConstruction() {}
+DetectorConstruction::DetectorConstruction() {};
 
-DetectorConstruction::~DetectorConstruction() {}
+DetectorConstruction::~DetectorConstruction() {};

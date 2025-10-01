@@ -10,14 +10,7 @@
 class ActionInitialization : public G4VUserActionInitialization
 {
 public:
-  void Build() const {
-    auto runAction = new RunAction();
-    SetUserAction(runAction);
-
-    SetUserAction(new StackingAction(runAction));
-    SetUserAction(new SteppingAction(runAction));
-
-  };
+  void Build() const override;
 };
 
 #endif

@@ -1,19 +1,28 @@
 #ifndef SteppingAction_h
 #define SteppingAction_h 1
 
+#include "G4ThreeVector.hh"
 #include "G4UserSteppingAction.hh"
 #include "globals.hh"
+#include "RunAction.hh"
+#include "G4VProcess.hh"
+
+#include <vector>
 
 class G4Step;
 class G4Track;
+class RunAction;
+class G4VProcess;
 
 class SteppingAction : public G4UserSteppingAction
 {
 public:
-  SteppingAction() {}
-  ~SteppingAction() Override {}
+ SteppingAction(RunAction* run) : fRunAction(run) {}
+  ~SteppingAction() override {}
   void UserSteppingAction(const G4Step* step) override;
+
+private:
+    RunAction*fRunAction;
 };
 
 #endif
-
