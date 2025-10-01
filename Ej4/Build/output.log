@@ -4,62 +4,62 @@
 In file included from /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/SteppingAction.hh:7,
                  from /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/src/SteppingAction.cc:1:
 /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh: In member function 'virtual void RunAction::BeginOfRunAction(const G4Run*)':
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:18:5: error: 'fSecondaries' was not declared in this scope
-   18 |     fSecondaries.clear();
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:19:5: error: 'fSecondaries' was not declared in this scope
+   19 |     fSecondaries.clear();
       |     ^~~~~~~~~~~~
 /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh: In member function 'virtual void RunAction::EndOfRunAction(const G4Run*)':
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:27:22: error: 'fSecondaries' was not declared in this scope
-   27 |     for (auto& sec : fSecondaries) {
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:28:22: error: 'fSecondaries' was not declared in this scope
+   28 |     for (auto& sec : fSecondaries) {
       |                      ^~~~~~~~~~~~
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:30:33: error: expected primary-expression before '<<' token
-   30 |               << sec.ekin/CLHEP << ","
-      |                                 ^~
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:31:37: error: 'mm' is not a member of 'CLHEP'
-   31 |               << sec.pos.x()/CLHEP::mm << ","
-      |                                     ^~
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:31:34: error: 'MeV' is not a member of 'CLHEP'
+   31 |               << sec.ekin/CLHEP::MeV<< ","
+      |                                  ^~~
 /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:32:37: error: 'mm' is not a member of 'CLHEP'
-   32 |               << sec.pos.y()/CLHEP::mm << ","
+   32 |               << sec.pos.x()/CLHEP::mm << ","
       |                                     ^~
 /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:33:37: error: 'mm' is not a member of 'CLHEP'
-   33 |               << sec.pos.z()/CLHEP::mm << ","
+   33 |               << sec.pos.y()/CLHEP::mm << ","
+      |                                     ^~
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:34:37: error: 'mm' is not a member of 'CLHEP'
+   34 |               << sec.pos.z()/CLHEP::mm << ","
       |                                     ^~
 /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh: In member function 'void RunAction::RecordSecondary(const G4String&, G4double, const G4ThreeVector&, const G4ThreeVector&, const G4String&)':
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:51:9: error: 'fSecondaries' was not declared in this scope
-   51 |         fSecondaries.push_back({name, ekin, pos, mom, proc});
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:52:9: error: 'fSecondaries' was not declared in this scope
+   52 |         fSecondaries.push_back({name, ekin, pos, mom, proc});
       |         ^~~~~~~~~~~~
 /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh: At global scope:
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:56:1: error: expected unqualified-id before 'private'
-   56 | private:
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:57:1: error: expected unqualified-id before 'private'
+   57 | private:
       | ^~~~~~~
 In file included from /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/ActionInitialization.hh:6,
                  from /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/src/ActionInitialization.cc:1:
 /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh: In member function 'virtual void RunAction::BeginOfRunAction(const G4Run*)':
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:18:5: error: 'fSecondaries' was not declared in this scope
-   18 |     fSecondaries.clear();
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:19:5: error: 'fSecondaries' was not declared in this scope
+   19 |     fSecondaries.clear();
       |     ^~~~~~~~~~~~
 /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh: In member function 'virtual void RunAction::EndOfRunAction(const G4Run*)':
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:27:22: error: 'fSecondaries' was not declared in this scope
-   27 |     for (auto& sec : fSecondaries) {
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:28:22: error: 'fSecondaries' was not declared in this scope
+   28 |     for (auto& sec : fSecondaries) {
       |                      ^~~~~~~~~~~~
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:30:33: error: expected primary-expression before '<<' token
-   30 |               << sec.ekin/CLHEP << ","
-      |                                 ^~
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:31:37: error: 'mm' is not a member of 'CLHEP'
-   31 |               << sec.pos.x()/CLHEP::mm << ","
-      |                                     ^~
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:31:34: error: 'MeV' is not a member of 'CLHEP'
+   31 |               << sec.ekin/CLHEP::MeV<< ","
+      |                                  ^~~
 /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:32:37: error: 'mm' is not a member of 'CLHEP'
-   32 |               << sec.pos.y()/CLHEP::mm << ","
+   32 |               << sec.pos.x()/CLHEP::mm << ","
       |                                     ^~
 /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:33:37: error: 'mm' is not a member of 'CLHEP'
-   33 |               << sec.pos.z()/CLHEP::mm << ","
+   33 |               << sec.pos.y()/CLHEP::mm << ","
+      |                                     ^~
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:34:37: error: 'mm' is not a member of 'CLHEP'
+   34 |               << sec.pos.z()/CLHEP::mm << ","
       |                                     ^~
 /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh: In member function 'void RunAction::RecordSecondary(const G4String&, G4double, const G4ThreeVector&, const G4ThreeVector&, const G4String&)':
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:51:9: error: 'fSecondaries' was not declared in this scope
-   51 |         fSecondaries.push_back({name, ekin, pos, mom, proc});
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:52:9: error: 'fSecondaries' was not declared in this scope
+   52 |         fSecondaries.push_back({name, ekin, pos, mom, proc});
       |         ^~~~~~~~~~~~
 /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh: At global scope:
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:56:1: error: expected unqualified-id before 'private'
-   56 | private:
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:57:1: error: expected unqualified-id before 'private'
+   57 | private:
       | ^~~~~~~
 /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/src/ActionInitialization.cc:7:6: error: redefinition of 'void ActionInitialization::Build() const'
     7 | void ActionInitialization::Build() const
@@ -72,23 +72,20 @@ make[2]: *** Waiting for unfinished jobs....
 In file included from /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/ActionInitialization.hh:6,
                  from /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/Ej4.cc:4:
 /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh: In member function 'virtual void RunAction::BeginOfRunAction(const G4Run*)':
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:18:5: error: 'fSecondaries' was not declared in this scope
-   18 |     fSecondaries.clear();
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:19:5: error: 'fSecondaries' was not declared in this scope
+   19 |     fSecondaries.clear();
       |     ^~~~~~~~~~~~
 /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh: In member function 'virtual void RunAction::EndOfRunAction(const G4Run*)':
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:27:22: error: 'fSecondaries' was not declared in this scope
-   27 |     for (auto& sec : fSecondaries) {
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:28:22: error: 'fSecondaries' was not declared in this scope
+   28 |     for (auto& sec : fSecondaries) {
       |                      ^~~~~~~~~~~~
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:30:33: error: expected primary-expression before '<<' token
-   30 |               << sec.ekin/CLHEP << ","
-      |                                 ^~
 /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh: In member function 'void RunAction::RecordSecondary(const G4String&, G4double, const G4ThreeVector&, const G4ThreeVector&, const G4String&)':
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:51:9: error: 'fSecondaries' was not declared in this scope
-   51 |         fSecondaries.push_back({name, ekin, pos, mom, proc});
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:52:9: error: 'fSecondaries' was not declared in this scope
+   52 |         fSecondaries.push_back({name, ekin, pos, mom, proc});
       |         ^~~~~~~~~~~~
 /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh: At global scope:
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:56:1: error: expected unqualified-id before 'private'
-   56 | private:
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:57:1: error: expected unqualified-id before 'private'
+   57 | private:
       | ^~~~~~~
 make[2]: *** [CMakeFiles/Ejercicio4.dir/build.make:93: CMakeFiles/Ejercicio4.dir/src/ActionInitialization.cc.o] Error 1
 make[2]: *** [CMakeFiles/Ejercicio4.dir/build.make:79: CMakeFiles/Ejercicio4.dir/Ej4.cc.o] Error 1
