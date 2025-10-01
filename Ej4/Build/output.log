@@ -3,14 +3,11 @@
 [ 42%] Building CXX object CMakeFiles/Ejercicio4.dir/src/SteppingAction.cc.o
 In file included from /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/SteppingAction.hh:7,
                  from /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/src/SteppingAction.cc:1:
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:22:8: error: 'void RunAction::EnfOfRunAction(const G4Run*)' marked 'override', but does not override
-   22 |   void EnfOfRunAction(const G4Run* Run) override{
-      |        ^~~~~~~~~~~~~~
 /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh: In member function 'virtual void RunAction::BeginOfRunAction(const G4Run*)':
 /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:18:5: error: 'fSecondaries' was not declared in this scope
    18 |     fSecondaries.clear();
       |     ^~~~~~~~~~~~
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh: In member function 'void RunAction::EnfOfRunAction(const G4Run*)':
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh: In member function 'virtual void RunAction::EndOfRunAction(const G4Run*)':
 /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:27:22: error: 'fSecondaries' was not declared in this scope
    27 |     for (auto& sec : fSecondaries) {
       |                      ^~~~~~~~~~~~
@@ -36,14 +33,11 @@ In file included from /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4
       | ^~~~~~~
 In file included from /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/ActionInitialization.hh:6,
                  from /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/src/ActionInitialization.cc:1:
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:22:8: error: 'void RunAction::EnfOfRunAction(const G4Run*)' marked 'override', but does not override
-   22 |   void EnfOfRunAction(const G4Run* Run) override{
-      |        ^~~~~~~~~~~~~~
 /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh: In member function 'virtual void RunAction::BeginOfRunAction(const G4Run*)':
 /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:18:5: error: 'fSecondaries' was not declared in this scope
    18 |     fSecondaries.clear();
       |     ^~~~~~~~~~~~
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh: In member function 'void RunAction::EnfOfRunAction(const G4Run*)':
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh: In member function 'virtual void RunAction::EndOfRunAction(const G4Run*)':
 /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:27:22: error: 'fSecondaries' was not declared in this scope
    27 |     for (auto& sec : fSecondaries) {
       |                      ^~~~~~~~~~~~
@@ -77,14 +71,11 @@ make[2]: *** [CMakeFiles/Ejercicio4.dir/build.make:149: CMakeFiles/Ejercicio4.di
 make[2]: *** Waiting for unfinished jobs....
 In file included from /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/ActionInitialization.hh:6,
                  from /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/Ej4.cc:4:
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:22:8: error: 'void RunAction::EnfOfRunAction(const G4Run*)' marked 'override', but does not override
-   22 |   void EnfOfRunAction(const G4Run* Run) override{
-      |        ^~~~~~~~~~~~~~
 /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh: In member function 'virtual void RunAction::BeginOfRunAction(const G4Run*)':
 /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:18:5: error: 'fSecondaries' was not declared in this scope
    18 |     fSecondaries.clear();
       |     ^~~~~~~~~~~~
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh: In member function 'void RunAction::EnfOfRunAction(const G4Run*)':
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh: In member function 'virtual void RunAction::EndOfRunAction(const G4Run*)':
 /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/RunAction.hh:27:22: error: 'fSecondaries' was not declared in this scope
    27 |     for (auto& sec : fSecondaries) {
       |                      ^~~~~~~~~~~~
