@@ -1,31 +1,6 @@
 [ 28%] Building CXX object CMakeFiles/Ejercicio4.dir/Ej4.cc.o
 [ 28%] Building CXX object CMakeFiles/Ejercicio4.dir/src/ActionInitialization.cc.o
 [ 42%] Building CXX object CMakeFiles/Ejercicio4.dir/src/SteppingAction.cc.o
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/src/SteppingAction.cc: In member function 'virtual void SteppingAction::UserSteppingAction(const G4Step*)':
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/src/SteppingAction.cc:10:71: error: cannot convert 'const std::vector<const G4Track*>*' to 'const std::vector<G4Track*>*' in initialization
-   10 |   const std::vector<G4Track*>* secs= step -> GetSecondaryInCurrentStep();
-      |                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
-      |                                                                       |
-      |                                                                       const std::vector<const G4Track*>*
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/src/SteppingAction.cc:18:49: error: invalid use of incomplete type 'const class G4VProcess'
-   18 |                         trk->GetCreatorProcess()->GetProcessName() : "Unknown";
-      |                                                 ^~
-In file included from /shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4Step.hh:53,
-                 from /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/src/SteppingAction.cc:3:
-/shared/spack/opt/spack/linux-almalinux9-zen4/gcc-14.2.0/geant4-11.3.0-sa4e5vypc467m7yadryn3jyh2bawozqu/include/Geant4/G4StepPoint.hh:51:7: note: forward declaration of 'class G4VProcess'
-   51 | class G4VProcess;
-      |       ^~~~~~~~~~
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/src/SteppingAction.cc:19:15: error: invalid use of incomplete type 'class RunAction'
-   19 |     fRunAction->RecordSecondary(name, ekin, pos, mom, proc);
-      |               ^~
-In file included from /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/src/SteppingAction.cc:1:
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/SteppingAction.hh:11:7: note: forward declaration of 'class RunAction'
-   11 | class RunAction;
-      |       ^~~~~~~~~
-/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/src/SteppingAction.cc:19:55: error: 'proc' was not declared in this scope; did you mean 'porc'?
-   19 |     fRunAction->RecordSecondary(name, ekin, pos, mom, proc);
-      |                                                       ^~~~
-      |                                                       porc
 In file included from /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/ActionInitialization.hh:7,
                  from /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/src/ActionInitialization.cc:1:
 /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/StackingAction.hh: In member function 'virtual G4ClassificationOfNewTrack StackingAction::ClassifyNewTrack(const G4Track*)':
@@ -49,6 +24,23 @@ In file included from /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4
 /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/StackingAction.hh:9:7: note: forward declaration of 'class RunAction'
     9 | class RunAction;
       |       ^~~~~~~~~
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/src/SteppingAction.cc: In member function 'virtual void SteppingAction::UserSteppingAction(const G4Step*)':
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/src/SteppingAction.cc:11:71: error: cannot convert 'const std::vector<const G4Track*>*' to 'const std::vector<G4Track*>*' in initialization
+   11 |   const std::vector<G4Track*>* secs= step -> GetSecondaryInCurrentStep();
+      |                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+      |                                                                       |
+      |                                                                       const std::vector<const G4Track*>*
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/src/SteppingAction.cc:20:15: error: invalid use of incomplete type 'class RunAction'
+   20 |     fRunAction->RecordSecondary(name, ekin, pos, mom, proc);
+      |               ^~
+In file included from /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/src/SteppingAction.cc:1:
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/include/SteppingAction.hh:11:7: note: forward declaration of 'class RunAction'
+   11 | class RunAction;
+      |       ^~~~~~~~~
+/lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/src/SteppingAction.cc:20:55: error: 'proc' was not declared in this scope; did you mean 'porc'?
+   20 |     fRunAction->RecordSecondary(name, ekin, pos, mom, proc);
+      |                                                       ^~~~
+      |                                                       porc
 /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/src/ActionInitialization.cc: At global scope:
 /lustre/home/agonzalez/SimGeant4/ejercicios/Ej4/Ejercicio4/src/ActionInitialization.cc:7:6: error: redefinition of 'void ActionInitialization::Build() const'
     7 | void ActionInitialization::Build() const
